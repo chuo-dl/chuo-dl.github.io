@@ -1,4 +1,38 @@
-@base <https://chuo-dl.github.io> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cultural: <https://chuo-dl.github.io/cultural.ttl#> .
 
+cultural:r00001
+    a schema:Thing ;
+    schema:name "ステンドグラス（炎の塔）"@ja ;
+    schema:place "炎の塔" ;
+    schema:dateCreated "2002-07-15" ;
+    schema:contributor "岡田錫淵" ;
+    schema:additionalType "彫刻" ;
+    schema:accessRights "可" .
+
+cultural:r00002
+    a schema:Thing ;
+    schema:name "テミス像"@ja ;
+    schema:place "ヒルトップ前" ;
+    schema:dateCreated "2006-10-01" ;
+    schema:contributor "千賀修一" ;
+    schema:additionalType "銅像" ;
+    schema:accessRights "可" .
+
+cultural:r00003
+    a schema:Thing ;
+    schema:name "ロゼッタ・ストーンレプリカ"@ja ;
+    schema:place "中央図書館" ;
+    schema:dateCreated "1980-01-01" ;
+    schema:contributor "小原銀之助" ;
+    schema:additionalType "彫刻" ;
+    schema:accessRights "可" .
+
+cultural:r0004
+    a schema:Thing ;
+    schema:name "李載灐先生像"@ja ;
+    schema:place "11号館" .
