@@ -46,7 +46,7 @@ var Snorqldef = {
 	home: {
 		//////@@required properties if define home object. homeを持つ場合は必須のプロパティ。
 		//the type of SPARQL endpoint, specially used to add preamble to query string (Util.query.preamble)
-		endpoint_type: "any", // virtuoso|any
+		endpoint_type: "virtuoso", // virtuoso|any
 		//label appended to "Snorql for" in <head>. if not set, _poweredByLabel is reused, if false simply "Snorql"
     	//label: false, 	//"Japan Search",
 		//base uri for resources in the endpoint. Used as uris.home in snorql_ldb. if not set, _poweredByLink is reused

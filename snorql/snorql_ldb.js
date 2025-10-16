@@ -4558,8 +4558,8 @@ Util.queries = {
 	preamble: function(query, qtype, is_virtuoso){
 		if(!is_virtuoso) return query;
 		if(qtype === "DESCRIBE"){
-			if(is_virtuoso !== "default")	//which uses default describe mode, ie get incoming triples but no CBD
-			query = "define sql:describe-mode \"CBD\"\n" + query;
+			//if(is_virtuoso !== "default")	//which uses default describe mode, ie get incoming triples but no CBD
+			//query = "define sql:describe-mode \"CBD\"\n" + query;
 			var def = this.preamble_def;
 			if(def){
 				//条件がtrueでurlkeyがある、もしくは条件がfalseでurlkeyがない場合に、指定値をクエリの前に加える。2022-12-19
