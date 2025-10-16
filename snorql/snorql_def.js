@@ -5,7 +5,7 @@ var Snorqldef = {
 	//snorqlの基本設定を上書きするための変数定義
 	vars: {
 		//snorqlで使用するエンドポイントURI: the endpoint URI used by snorql.if not set, default ep is s/snorql/sparql/ of current.
-		_endpoint: "https://api.triplydb.com/datasets/MaoTsunekawa/chuo-dl-cultural/sparql/",
+		_endpoint: "https://dydra.com/mtsunekawa/chuo-digital-library/sparql",
 		//URL to be set on #powerdby <a> element of HTML. Also used for home.uri unless explicitly specified
 		_poweredByLink: "https://chuo-dl.github.io/",
 		//anchor text for the above element. Also used for home.label unless explicitly specified
@@ -14,7 +14,7 @@ var Snorqldef = {
 		//ids: {pwrdby: "poweredby"},
 		
 		//default query to be set on text area when loaded without user query ユーザクエリ無しでロードされた時にtextareaに表示
-		default_query: "SELECT DISTINCT * WHERE { ?s ?p ?o }",
+		default_query: "select * where { { graph ?g {?s ?p ?o} } union {?s ?p ?o} } limit 100",
 		
 		//relative path to store small icons, incl link_img. default = ""
 		//relpath: "./images/",
@@ -54,10 +54,10 @@ var Snorqldef = {
 		
 		//basic 'record' namespace. used to compact title elt, to find related items by appending other item ids
 		//エンドポイント基本データURI。短縮title要素生成や続くID部分を置き換えて関連リソースを検索するなどのために用いる。
-		datauri: "https://jpsearch.go.jp/data/",
+		datauri: "https://w3id.org/chuo-dl/resource/",
 		//basic 'record' URI pattern to decide is_home_uri, which is, if true, a signal to fetch resource labels and more info
 		//snorqlおよび_ldbのis_home_uriを範囲するためのエンドポイント基本データURIパターン。trueならラベルや他情報を追加取得する
-		datauri_pat: "^(https://jpsearch.go.jp|https://ld.cultural.jp|http://purl.org/net/ld/jpsearch)/data/",	//basic 'record' namespace pattern
+		datauri_pat: "^https://w3id.org/cho-dl/resource/",	//basic 'record' namespace pattern
 		graph: {
 			//materials to determine current graph name in snorql_ldb::set_current_graph 2023-11-15
 			pfx: "",	
@@ -71,10 +71,10 @@ var Snorqldef = {
 		//or if describe query should add ids that is a variation of the main resource uri
 		//同時にdescribeするサブリソースURIがフラグメントではなく本URIの一部を置き換える場合のパターン
 		//datauri_replace: [{from: "ndlna", to: "entity"}],
-		desc_uripats: ["https://jpsearch.go.jp/(entity|data)", "https://ld.cultural.jp/data/"],	//always use describe link even if dlink prop
+		desc_uripats: ["https://w3id.org/cho-dl/resource/"],	//always use describe link even if dlink prop
 		//additional 'record' namespaces to decide is_home_uri, which is not used subresource query
 		//is_home_uriを判定する追加名前空間URI。サブリソースの追加describeには用いない。
-		workuri: ["https://jpsearch.go.jp/entity/", "https://jpsearch.go.jp/term/keyword/"],	//additional 'record' namespaces
+		workuri: [],	//additional 'record' namespaces
 		//images to use notifier, indicator etc. those bundled with standard snorql_ldb set
 		img: {
 			"link": "link.png",	//external link. default is defined in snorql.js as "link.png"
@@ -109,10 +109,7 @@ var Snorqldef = {
 		//<ul> list items to provide additional information. set null or just delete if no <ul> list is needed
 		//基本紹介に続けて表示する<ul>用の多言語ラベル配列の配列。不要ならnullとする。※当初は第1アイテムは組み込みにしていましたが、より柔軟な設定ができるよう、リストすべてをここでの定義に移しました。
 		intro: [
-			["入力欄下もしくは右にクエリ例があります。<a href=\"https://jpsearch.go.jp/api/sparql-explain/\">ジャパンサーチSPARQLエンドポイント解説</a>も参照してください。", "Query examples are provided below (or right-hand side of) the text area. See also <a href=\"https://www.kanzaki.com/works/ld/jpsearch/primer/\">Japan Search RDF Model Primer</a> for the general description."],
-			["エンドポイントの利用方法は<a href=\"https://jpsearch.go.jp/api/sparql-explain/\">SPARQLエンドポイント解説</a>をご覧ください。", "See <a href=\"https://www.kanzaki.com/works/ld/jpsearch/primer/\">Japan Search RDF Model Primer</a> for the general description of this endpoint."],
-			["用いているRDFモデルの概要は<a href=\"https://jpsearch.go.jp/api/introduction/\">利活用スキーマ概説</a>をご覧ください。", "See <a href=\"https://jpsearch.go.jp/api/introduction/\">Introduction to Japan Search SPARQL Endpoint</a> (in Japanese) for the RDF model."],
-			["Snorql for Japan Searchの概要は<a href=\"https://www.kanzaki.com/works/ld/jpsearch/snorql_ldb-about\">Snorql for Japan Seachを使う</a>をご覧ください。", "<a href=\"https://www.kanzaki.com/works/ld/jpsearch/snorql_ldb-about\">About Snorql for Japan Search</a> has basic explanation of this Snorql extension."]
+			["中央大学文学部社会情報学専攻　科目「デジタル・ライブラリ」の演習用SPARQLエディターです。"],
 		],
 		//id of EasySPARQL form element
 		easysparql_form: "moreform",
