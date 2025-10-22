@@ -1,0 +1,27 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix ndl: <https://ndlsearch.ndl.go.jp/books/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> . 
+@prefix kodansha: <https://www.kodansha.co.jp/> . 
+
+ndl:R100000002-I000002039608
+	a schema:Book ; 
+	schema:name "完訳赤毛のアンシリーズ" ;
+	schema:creator wiki:Q273034 ; 
+	schema:publisher kodansha:history .
+
+wiki:Q273034
+	rdf:type <https://schema.org/Person> ;
+    schema:birthDate 1874 ; 
+	schema:givenName "L.M.モンゴメリー" ; 
+	schema:spouse "ユーアン・マクドナルド" .
+
+kodansha:history
+	schema:birthDate 1911 .
+
+ndl:R100000039-I1628258
+    a schema:Book ;
+	schema:name "エルマーのぼうけん" ;
+            schema:creator "ルース・スタイルス・ガネット" ;
+            schema:illustrator "ルース・スタイルス・ガネット" ;
+            schema:publisher "福音館書店" .
