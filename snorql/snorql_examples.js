@@ -17,13 +17,12 @@ Snorqldef.example_ns = {
 //mlabelは言語別ラベル。クエリフォームに説明コメントとしても表示する。複数の文（日本語なら「。」区切り）で構成されるラベルにすると、最初の区切り文字までを選択用ラベル、全体を説明コメントとして用いる
 Snorqldef.example = [
 	{
-		"mlabel": ["クラス（型）別コンテンツ数。シンプルな集約の例です。jps:sourceInfoを加えることでアイテムに限定しています。", "Count items by type. A simple example of aggregation. jps:sourceInfo ensures the resulting ?cho are items (not agents, locations, etc)"],
+		"mlabel": ["すべてのトリプル。すべてのトリプルを取得します。", ""],
 		"query" : 
-`SELECT ?type (count(?cho) as ?count) WHERE {
-	?cho a ?type ;
-		jps:sourceInfo ?source .
-} GROUP BY ?type
-`,
+		  `SELECT DISTINCT ?g ?s ?p ?o WHERE {
+		     GRAPH ?g { ?s ?p ?o }
+		   } LIMIT 100
+		`,
 		"ns" : [ ]	//list of ns prefixes defined in example_ns, if necessary 必要に応じてexample_nsで定義した接頭辞リスト
 	}
 ];
