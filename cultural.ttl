@@ -3,7 +3,7 @@
 @prefix schema: <http://schema.org/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix cultural: <https://w3id.org/chuo-dl/cultural/> .
+@prefix cultural: <https://w3id.org/chuo-dl/resource/cultural/> .
 
 cultural:r00001
     a schema:Thing ;
