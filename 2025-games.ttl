@@ -1,4 +1,5 @@
 @prefix yakuza: <https://w3id.org/chuo-dl/resource/yakuza/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
