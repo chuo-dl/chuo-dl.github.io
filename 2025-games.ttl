@@ -1,27 +1,42 @@
+@prefix yakuza: <https://w3id.org/chuo-dl/resource/yakuza/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
 @prefix schema: <https://schema.org/> .
 @prefix ns0: <http://example.com/v/> .
+@prefix videogame: <https://w3id.org/chuo-dl/resource/videogame/>.
+ 
+<https://w3id.org/chuo-dl/resource/videogame>
+    a dcat:Dataset ;
+    dct:title "games"@ja ;
+    dct:issued "2025-11-12"^^xsd:date ;
+    dct:modified "2025-11-12"^^xsd:date .
+    dct:description "最近流行りのゲーム"@ja .
 
-<https://www.nintendo.com/jp/switch/av5ja/index.html>
-    a schema:videogame ;
-    schema:name"スプラトゥーン3";
-    schema:creator"野上恒";
-    schema:startDate"2022-9-9".
+videogame:splatoon
+owl:sameAs <https://www.nintendo.com/jp/switch/av5ja/index.html>;
+    	a schema:videogame ;
+    	schema:name"スプラトゥーン3";
+    	schema:creator"野上恒";
+    	schema:startDate"2022-9-9".
 
-<https://ryu-ga-gotoku.com/zero>
-    
-    a schema:videogame ;
-    schema:name"龍が如く0";
-    schema:creator"名越稔洋";
-    schema:datePublished"2005-12-8".
+videogame:gotoku0
+owl:sameAs <https://ryu-ga-gotoku.com/zero>;
+a schema:videogame ;
+    	schema:name"龍が如く0";
+    	schema:creator"名越稔洋";
+    	schema:datePublished"2005-12-8".
 
-<https://www.pokemon.co.jp/ex/sword_shield>
-    a schema:videogame ;
-    schema:name"ポケットモンスター　ソード・シールド";
-    schema:creator"増田順一";
-    schema:datePublished"2019-11-15".
+videogame:pokemonSS
+owl:sameAs <https://www.pokemon.co.jp/ex/sword_shield/>;
+a schema:videogame ;
+    	schema:name"ポケットモンスター　ソード・シールド";
+    	schema:creator"増田順一";
+    	schema:datePublished"2019-11-15".
 
-<https://www.nintendo.com/jp/switch/acbaa/index.html>
-    a schema:videogame ;
-    schema:name"あつまれ　どうぶつの森";
-    schema:creator"野上恒";
-    schema:datePublished"2020-3-20".
+videogame:atsumori
+owl:sameAs <https://www.nintendo.com/jp/switch/acbaa/index.html>;
+ 	a schema:videogame ;
+ 	schema:name"あつまれ　どうぶつの森";
+ 	schema:creator"野上恒";
+schema:datePublished"2020-3-20".
