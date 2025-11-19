@@ -1,6 +1,6 @@
 {
-    "@context": "http://iiif.io/api/image/2/context.json",
-    "@id": "https://chuo-dl.github.io/iiif/cultural/themis",
+    "@context": "http://iiif.io/api/image/3/context.json",
+    "@id": "https://w3id.org/chuo-dl/iiif/cultural/themis",
     "protocol": "http://iiif.io/api/image",
     "width": 3024,
     "height": 4032,
