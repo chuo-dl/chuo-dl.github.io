@@ -65,7 +65,7 @@
               "motivation": "painting",
               "target": "https://w3id.org/chuo-dl/manifests/47wy202fy6m-mi5okeb8/canvas/fe2ffc86t7a-mi5om1yx",
               "body": {
-                "id": "https://chuo-dl.github.io/iiif/cultural/themis/full/max/0/default.jpg",
+                "id": "https://w3id.org/chuo-dl/iiif/cultural/themis/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4032,
@@ -73,7 +73,7 @@
                 "service": [
                   {
                     "@context": "http://iiif.io/api/image/2/context.json",
-                    "@id": "https://chuo-dl.github.io/iiif/cultural/themis",
+                    "@id": "https://w3id.org/chuo-dl/iiif/cultural/themis",
                     "protocol": "http://iiif.io/api/image",
                     "width": 3024,
                     "height": 4032,
