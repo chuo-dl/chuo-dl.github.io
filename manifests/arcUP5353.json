@@ -1,0 +1,562 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json",
+    "type": "Manifest",
+    "behavior": [
+        "individuals"
+    ],
+    "label": {
+        "none": [
+            "「徳川家康」"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Persistent ID"
+                ]
+            },
+            "value": {
+                "none": [
+                    "info:dhjac/pid/arcUP5353"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "AcNo."
+                ]
+            },
+            "value": {
+                "none": [
+                    "arcUP5353"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "URL"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://w3id.org/chuo-dl/manifests/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "CoGNo."
+                ]
+            },
+            "value": {
+                "none": [
+                    "arcUP5353"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Genre"
+                ]
+            },
+            "value": {
+                "none": [
+                    "武者絵"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Collection"
+                ]
+            },
+            "value": {
+                "none": [
+                    "立命館ARC"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Size & Technique"
+                ]
+            },
+            "value": {
+                "none": [
+                    "大判/錦絵"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Signature"
+                ]
+            },
+            "value": {
+                "none": [
+                    "－"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Publisher"
+                ]
+            },
+            "value": {
+                "none": [
+                    "豊宣"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Place of publication"
+                ]
+            },
+            "value": {
+                "none": [
+                    "東京"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "thumbnail_url"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/arc/Prints/arcUP/arcUP5353.jpg"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "image_url"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://www.arc.ritsumei.ac.jp/archive01/theater/image/PB/arc/Prints/arcUP/arcUP5353.jpg"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "「徳川家康」"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Artist"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "豊宣"
+                ]
+            }
+        }
+    ],
+    "summary": {
+        "none": [
+            "「徳川家康」, 武者絵"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "none": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "none": [
+                "立命館ARC"
+            ]
+        }
+    },
+    "provider": [
+        {
+            "id": "http://example.org/provider",
+            "type": "Agent",
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "logo": [
+                {
+                    "id": "https://www.arc.ritsumei.ac.jp/image/logo_small.png",
+                    "type": "Image"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/canvas/1",
+            "type": "Canvas",
+            "height": 2700,
+            "width": 1741,
+            "label": {
+                "none": [
+                    "家康"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/arc/Prints/arcUP/arcUP5353.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 240,
+                    "width": 155
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/canvas/1/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/annotation/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/canvas/1",
+                            "body": {
+                                "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/arc%2521Prints%2521arcUP%2521arcUP5353/full/full/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2700,
+                                "width": 1741,
+                                "service": [
+                                    {
+                                        "@id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/arc%21Prints%21arcUP%21arcUP5353",
+                                        "@type": "ImageService2",
+                                        "profile": "level2"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/canvas/1/annotations/9sew0bv14sg-mifos6fh",
+                    "type": "AnnotationPage",
+                    "label": {
+                        "en": [
+                            "Inline annotations"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/canvas/1/annotations/9sew0bv14sg-mifos6fh/annotation/ig15uwx50p-mifosn3x",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/canvas/1#xywh=760,947,865,1296",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/canvas/1/annotations/9sew0bv14sg-mifos6fh/annotation/ig15uwx50p-mifosn3x/html/en/94fn3xp3udh-mifosn3x",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "<p>徳川家康１</p>"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/canvas/1/annotations/9sew0bv14sg-mifos6fh/annotation/mmqhy10eup-mifouyyx",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/canvas/1#xywh=17,345,369,435",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/canvas/1/annotations/9sew0bv14sg-mifos6fh/annotation/mmqhy10eup-mifouyyx/html/en/b0kg3db04z6-mifouyyx",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "<p>関白殿下豊臣秀吉</p>"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/gz4j7cyjmmi-miforl8p",
+            "type": "Canvas",
+            "height": 17967,
+            "width": 9392,
+            "label": {
+                "en": [
+                    "家康2"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dl.ndl.go.jp/api/iiif/2542434/R0000005/full/293,/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 561,
+                    "width": 293
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/gz4j7cyjmmi-miforl8p/annotation-page/bl1dojblle-miforl8p",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/annotation/9w7mp8ht6zi-miforl8o",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/gz4j7cyjmmi-miforl8p",
+                            "body": {
+                                "id": "https://dl.ndl.go.jp/api/iiif/2542434/R0000005/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 17967,
+                                "width": 9392,
+                                "service": [
+                                    {
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "@id": "https://dl.ndl.go.jp/api/iiif/2542434/R0000005",
+                                        "@type": "dctypes:Image",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 9392,
+                                        "height": 17967,
+                                        "sizes": [
+                                            {
+                                                "width": 293,
+                                                "height": 561
+                                            },
+                                            {
+                                                "width": 587,
+                                                "height": 1122
+                                            },
+                                            {
+                                                "width": 1174,
+                                                "height": 2245
+                                            },
+                                            {
+                                                "width": 2348,
+                                                "height": 4491
+                                            },
+                                            {
+                                                "width": 4696,
+                                                "height": 8983
+                                            }
+                                        ],
+                                        "tiles": [
+                                            {
+                                                "width": 1024,
+                                                "height": 1024,
+                                                "scaleFactor": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16,
+                                                    32
+                                                ]
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "default"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByWh"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/ajthrsh1h5a-mifp9xaa",
+            "type": "Canvas",
+            "height": 600,
+            "width": 400,
+            "label": {
+                "en": [
+                    "家康3"
+                ]
+            },
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/ajthrsh1h5a-mifp9xaa/annotation-page/dwlq6al3a9-mifp9xaa",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/annotation/1weyvzwvgcy-mifp9x7r",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/ajthrsh1h5a-mifp9xaa",
+                            "body": {
+                                "id": "https://das-sekigahara.s3.ap-northeast-1.amazonaws.com/das-sekigahara_geoa_tech/picture/2200/2109_4787/fullsize.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 600,
+                                "width": 400
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/2h0oo6481o2-mifp30k1",
+            "type": "Canvas",
+            "height": 3840,
+            "width": 5760,
+            "label": {
+                "en": [
+                    "禁中並公家諸法度"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://kokusho.nijl.ac.jp/api/iiif/300075706/v4/OSAK/OSAK-01450/OSAK-01450-00008.tif/full/360,/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 240,
+                    "width": 360
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/2h0oo6481o2-mifp30k1/annotation-page/l6zgm8qvus-mifp30k1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/annotation/77r8kh45rz-mifp30k0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/2h0oo6481o2-mifp30k1",
+                            "body": {
+                                "id": "https://kokusho.nijl.ac.jp/api/iiif/300075706/v4/OSAK/OSAK-01450/OSAK-01450-00008.tif/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 3840,
+                                "width": 5760,
+                                "service": [
+                                    {
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "@id": "https://kokusho.nijl.ac.jp/api/iiif/300075706/v4/OSAK/OSAK-01450/OSAK-01450-00008.tif",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 5760,
+                                        "height": 3840,
+                                        "sizes": [
+                                            {
+                                                "width": 180,
+                                                "height": 120
+                                            },
+                                            {
+                                                "width": 360,
+                                                "height": 240
+                                            },
+                                            {
+                                                "width": 720,
+                                                "height": 480
+                                            },
+                                            {
+                                                "width": 1440,
+                                                "height": 960
+                                            },
+                                            {
+                                                "width": 2880,
+                                                "height": 1920
+                                            }
+                                        ],
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16,
+                                                    32
+                                                ]
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray",
+                                                    "bitonal"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "regionSquare",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring"
+                                                ],
+                                                "maxWidth": 40000,
+                                                "maxHeight": 40000
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/arcUP5353.json/canvas/2h0oo6481o2-mifp30k1/annotations/f1qcku9g4ek-mifp3oo9",
+                    "type": "AnnotationPage",
+                    "label": {
+                        "en": [
+                            "Inline annotations"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
