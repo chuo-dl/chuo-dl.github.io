@@ -1,0 +1,811 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88.json",
+    "type": "Manifest",
+    "behavior": [
+        "individuals"
+    ],
+    "label": {
+        "none": [
+            "「ふくろう」"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Persistent ID"
+                ]
+            },
+            "value": {
+                "none": [
+                    "info:dhjac/pid/japancoll-p1500-yoshida--toshi-two-owls-4158"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "AcNo."
+                ]
+            },
+            "value": {
+                "none": [
+                    "japancoll-p1500-yoshida--toshi-two-owls-4158"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "URL"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "CoGNo."
+                ]
+            },
+            "value": {
+                "none": [
+                    "japancoll-p1500-yoshida--toshi-two-owls-4158"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Genre"
+                ]
+            },
+            "value": {
+                "none": [
+                    "新版画、花鳥画、動物画"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Collection"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Ronin Gallery (japancoll)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Size & Technique"
+                ]
+            },
+            "value": {
+                "none": [
+                    "大判/木版画(横絵)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Signature"
+                ]
+            },
+            "value": {
+                "none": [
+                    "遠志（「★★★」）、Toshi Yoshida"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Publisher"
+                ]
+            },
+            "value": {
+                "none": [
+                    "吉田遠志"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Censor's Seal"
+                ]
+            },
+            "value": {
+                "none": [
+                    "一九七〇年作"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "thumbnail_url"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://data.ukiyo-e.org/japancoll/scaled/p1500-yoshida--toshi-two-owls-4158.jpg"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "image_url"
+                ]
+            },
+            "value": {
+                "none": [
+                    "https://data.ukiyo-e.org/japancoll/images/p1500-yoshida--toshi-two-owls-4158.jpg"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "「ふくろう」"
+                ],
+                "en": [
+                    "Two Owls"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Artist"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "吉田遠志"
+                ]
+            }
+        }
+    ],
+    "summary": {
+        "none": [
+            "「ふくろう」, 新版画、花鳥画、動物画"
+        ]
+    },
+    "requiredStatement": {
+        "label": {
+            "none": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "none": [
+                "Ronin Gallery (japancoll)"
+            ]
+        }
+    },
+    "provider": [
+        {
+            "id": "http://example.org/provider",
+            "type": "Agent",
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "logo": [
+                {
+                    "id": "https://www.arc.ritsumei.ac.jp/image/logo_small.png",
+                    "type": "Image"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1",
+            "type": "Canvas",
+            "height": 290,
+            "width": 450,
+            "label": {
+                "none": [
+                    "ふくろう2羽"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://data.ukiyo-e.org/japancoll/scaled/p1500-yoshida--toshi-two-owls-4158.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 290,
+                    "width": 450
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/annotation/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1",
+                            "body": {
+                                "id": "https://data.ukiyo-e.org/japancoll/images/p1500-yoshida--toshi-two-owls-4158.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 290,
+                                "width": 450
+                            }
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1/annotations/h1i0ndiqfce-mifop882",
+                    "type": "AnnotationPage",
+                    "label": {
+                        "en": [
+                            "Inline annotations"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1/annotations/h1i0ndiqfce-mifop882/annotation/qusukgwik98-mifotzji",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1#xywh=136,46,74,169",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1/annotations/h1i0ndiqfce-mifop882/annotation/qusukgwik98-mifotzji/html/en/wg1ykt1478h-mifotzji",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E目を閉じているふくろうです。\u003C/p\u003E\n\u003Cp\u003Eリラックスしている様子ですね。\u003C/p\u003E\n\u003Cp\u003E警戒心がないだけなのかもしれませんが、無防備でかわいらしいです。\u003C/p\u003E"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1/annotations/h1i0ndiqfce-mifop882/annotation/wwgmshozxai-mifowbk4",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1#xywh=206,49,131,164",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/canvas/1/annotations/h1i0ndiqfce-mifop882/annotation/wwgmshozxai-mifowbk4/html/en/7fnns4s7f3u-mifowbk5",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E目を開けているふくろうです。\u003C/p\u003E\n\u003Cp\u003Eめっっっっっっちゃこちらを見ていますね。\u003C/p\u003E\n\u003Cp\u003E目力がすごいことから、こちらに気づいているのかもしれません。\u003C/p\u003E"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/canvas/lmiwp20d3qj-mifom54i",
+            "type": "Canvas",
+            "height": 1000,
+            "width": 1000,
+            "label": {
+                "en": [
+                    "サザンカとふくろう"
+                ]
+            },
+            "summary": {
+                "en": [
+                    ""
+                ]
+            },
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/canvas/lmiwp20d3qj-mifom54i/annotation-page/0yy2e6k22dkd-mifom54i",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/annotation/2awrqdiv749-mifom54f",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/canvas/lmiwp20d3qj-mifom54i",
+                            "body": {
+                                "id": "https://www.dh-jac.net/db/nishikie/MFA-21.8641/portal/manifest.json/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 1000,
+                                "service": [
+                                    {
+                                        "@context": "http://iiif.io/api/presentation/2/context.json",
+                                        "@type": "sc:Manifest",
+                                        "viewingDirection": "left-to-right",
+                                        "logo": "https://www.arc.ritsumei.ac.jp/image/logo_small.png",
+                                        "@id": "https://www.dh-jac.net/db/nishikie/MFA-21.8641/portal/manifest.json",
+                                        "metadata": [
+                                            {
+                                                "label": "Persistent ID",
+                                                "value": "info:dhjac/pid/MFA-21.8641"
+                                            },
+                                            {
+                                                "label": "AcNo.",
+                                                "value": "MFA-21.8641"
+                                            },
+                                            {
+                                                "label": "URL",
+                                                "value": "https://www.dh-jac.net/db/nishikie/MFA-21.8641/portal/"
+                                            },
+                                            {
+                                                "label": "CoGNo.",
+                                                "value": "MFA-21.8641"
+                                            },
+                                            {
+                                                "label": "Genre",
+                                                "value": "花鳥画"
+                                            },
+                                            {
+                                                "label": "Collection",
+                                                "value": "MFA_Boston"
+                                            },
+                                            {
+                                                "label": "Publisher name1",
+                                                "value": "川口屋正蔵"
+                                            },
+                                            {
+                                                "label": "Signature",
+                                                "value": "広重筆"
+                                            },
+                                            {
+                                                "label": "Publisher",
+                                                "value": "広重〈1〉"
+                                            },
+                                            {
+                                                "label": "Censor's Seal",
+                                                "value": "極"
+                                            },
+                                            {
+                                                "label": "Place of publication",
+                                                "value": "江戸"
+                                            },
+                                            {
+                                                "label": "Publisher's mark",
+                                                "value": "川正 川口屋正蔵 "
+                                            },
+                                            {
+                                                "label": "thumbnail_url",
+                                                "value": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC141891.jpg"
+                                            },
+                                            {
+                                                "label": "image_url",
+                                                "value": "https://mfas3.s3.amazonaws.com/objects/SC141891.jpg"
+                                            },
+                                            {
+                                                "label": "Title",
+                                                "value": [
+                                                    {
+                                                        "@value": "「山茶花（さざんか）に梟（ふくろう）」",
+                                                        "@language": "ja"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Artist",
+                                                "value": [
+                                                    {
+                                                        "@value": "広重〈1〉",
+                                                        "@language": "ja"
+                                                    },
+                                                    {
+                                                        "@value": "Utagawa Hiroshige:1",
+                                                        "@language": "en"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "label": "「山茶花（さざんか）に梟（ふくろう）」",
+                                        "license": "https://www.mfa.org/about/terms-of-use",
+                                        "attribution": "MFA_Boston",
+                                        "sequences": [
+                                            {
+                                                "@type": "sc:Sequence",
+                                                "viewingHint": "individuals",
+                                                "thumbnail": {
+                                                    "@id": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC141891.jpg",
+                                                    "@type": "dctypes:Image",
+                                                    "format": "image/jpeg",
+                                                    "width": 103,
+                                                    "height": 140
+                                                },
+                                                "canvases": [
+                                                    {
+                                                        "@type": "sc:Canvas",
+                                                        "@id": "https://www.dh-jac.net/db/nishikie/MFA-21.8641/portal/canvas/1",
+                                                        "width": 1182,
+                                                        "height": 1600,
+                                                        "label": "1",
+                                                        "images": [
+                                                            {
+                                                                "@id": "https://www.dh-jac.net/db/nishikie/MFA-21.8641/portal/annotation/1",
+                                                                "@type": "oa:Annotation",
+                                                                "motivation": "sc:painting",
+                                                                "on": "https://www.dh-jac.net/db/nishikie/MFA-21.8641/portal/canvas/1",
+                                                                "resource": {
+                                                                    "@id": "https://mfas3.s3.amazonaws.com/objects/SC141891.jpg",
+                                                                    "@type": "dctypes:Image",
+                                                                    "format": "image/jpeg",
+                                                                    "width": 1182,
+                                                                    "height": 1600
+                                                                }
+                                                            }
+                                                        ],
+                                                        "thumbnail": {
+                                                            "@id": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC141891.jpg",
+                                                            "@type": "dctypes:Image",
+                                                            "format": "image/jpeg",
+                                                            "width": 103,
+                                                            "height": 140
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "description": "「山茶花（さざんか）に梟（ふくろう）」, 花鳥画"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/canvas/bgmyvbkmczh-mifp6bw0",
+            "type": "Canvas",
+            "height": 1000,
+            "width": 1000,
+            "label": {
+                "en": [
+                    "すずめとカワセミ"
+                ]
+            },
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/canvas/bgmyvbkmczh-mifp6bw0/annotation-page/d1krz3ceobu-mifp6bw0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/annotation/wygwk5gogmo-mifp6bvy",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/canvas/bgmyvbkmczh-mifp6bw0",
+                            "body": {
+                                "id": "https://www.dh-jac.net/db/nishikie/MFA-21.9679/portal/manifest.json/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 1000,
+                                "service": [
+                                    {
+                                        "@context": "http://iiif.io/api/presentation/2/context.json",
+                                        "@type": "sc:Manifest",
+                                        "viewingDirection": "left-to-right",
+                                        "logo": "https://www.arc.ritsumei.ac.jp/image/logo_small.png",
+                                        "@id": "https://www.dh-jac.net/db/nishikie/MFA-21.9679/portal/manifest.json",
+                                        "metadata": [
+                                            {
+                                                "label": "Persistent ID",
+                                                "value": "info:dhjac/pid/MFA-21.9679"
+                                            },
+                                            {
+                                                "label": "AcNo.",
+                                                "value": "MFA-21.9679"
+                                            },
+                                            {
+                                                "label": "URL",
+                                                "value": "https://www.dh-jac.net/db/nishikie/MFA-21.9679/portal/"
+                                            },
+                                            {
+                                                "label": "CoGNo.",
+                                                "value": "MFA-21.9679"
+                                            },
+                                            {
+                                                "label": "Genre",
+                                                "value": "花鳥画"
+                                            },
+                                            {
+                                                "label": "Collection",
+                                                "value": "MFA_Boston"
+                                            },
+                                            {
+                                                "label": "Publisher name1",
+                                                "value": "丸屋清次郎"
+                                            },
+                                            {
+                                                "label": "Signature",
+                                                "value": "広重筆"
+                                            },
+                                            {
+                                                "label": "Publisher",
+                                                "value": "広重〈1〉"
+                                            },
+                                            {
+                                                "label": "Censor's Seal",
+                                                "value": "極"
+                                            },
+                                            {
+                                                "label": "Publisher's mark",
+                                                "value": " 丸屋清次郎 "
+                                            },
+                                            {
+                                                "label": "thumbnail_url",
+                                                "value": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC135790.jpg"
+                                            },
+                                            {
+                                                "label": "image_url",
+                                                "value": "https://mfas3.s3.amazonaws.com/objects/SC135790.jpg"
+                                            },
+                                            {
+                                                "label": "Title",
+                                                "value": [
+                                                    {
+                                                        "@value": "「芙蓉（ふよう）に雀（すずめ）と翡翠（かわせみ）」",
+                                                        "@language": "ja"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Artist",
+                                                "value": [
+                                                    {
+                                                        "@value": "広重〈1〉",
+                                                        "@language": "ja"
+                                                    },
+                                                    {
+                                                        "@value": "Utagawa Hiroshige:1",
+                                                        "@language": "en"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "label": "「芙蓉（ふよう）に雀（すずめ）と翡翠（かわせみ）」",
+                                        "license": "https://www.mfa.org/about/terms-of-use",
+                                        "attribution": "MFA_Boston",
+                                        "sequences": [
+                                            {
+                                                "@type": "sc:Sequence",
+                                                "viewingHint": "individuals",
+                                                "thumbnail": {
+                                                    "@id": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC135790.jpg",
+                                                    "@type": "dctypes:Image",
+                                                    "format": "image/jpeg",
+                                                    "width": 103,
+                                                    "height": 140
+                                                },
+                                                "canvases": [
+                                                    {
+                                                        "@type": "sc:Canvas",
+                                                        "@id": "https://www.dh-jac.net/db/nishikie/MFA-21.9679/portal/canvas/1",
+                                                        "width": 1172,
+                                                        "height": 1600,
+                                                        "label": "1",
+                                                        "images": [
+                                                            {
+                                                                "@id": "https://www.dh-jac.net/db/nishikie/MFA-21.9679/portal/annotation/1",
+                                                                "@type": "oa:Annotation",
+                                                                "motivation": "sc:painting",
+                                                                "on": "https://www.dh-jac.net/db/nishikie/MFA-21.9679/portal/canvas/1",
+                                                                "resource": {
+                                                                    "@id": "https://mfas3.s3.amazonaws.com/objects/SC135790.jpg",
+                                                                    "@type": "dctypes:Image",
+                                                                    "format": "image/jpeg",
+                                                                    "width": 1172,
+                                                                    "height": 1600
+                                                                }
+                                                            }
+                                                        ],
+                                                        "thumbnail": {
+                                                            "@id": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC135790.jpg",
+                                                            "@type": "dctypes:Image",
+                                                            "format": "image/jpeg",
+                                                            "width": 103,
+                                                            "height": 140
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "description": "「芙蓉（ふよう）に雀（すずめ）と翡翠（かわせみ）」, 花鳥画"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/canvas/1ue69fk5wepi-mifp8x2o",
+            "type": "Canvas",
+            "height": 1000,
+            "width": 1000,
+            "label": {
+                "en": [
+                    "あじさいにかたつむり"
+                ]
+            },
+            "summary": {
+                "en": [
+                    ""
+                ]
+            },
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/canvas/1ue69fk5wepi-mifp8x2o/annotation-page/09ri788bpn7-mifp8x2o",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/annotation/npz2zzf71lo-mifp8x2m",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/7yfvwozs4oc-mipnp88/manifest.json/canvas/1ue69fk5wepi-mifp8x2o",
+                            "body": {
+                                "id": "https://www.dh-jac.net/db/nishikie/MFA-21.8558/portal/manifest.json/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1000,
+                                "width": 1000,
+                                "service": [
+                                    {
+                                        "@context": "http://iiif.io/api/presentation/2/context.json",
+                                        "@type": "sc:Manifest",
+                                        "viewingDirection": "left-to-right",
+                                        "logo": "https://www.arc.ritsumei.ac.jp/image/logo_small.png",
+                                        "@id": "https://www.dh-jac.net/db/nishikie/MFA-21.8558/portal/manifest.json",
+                                        "metadata": [
+                                            {
+                                                "label": "Persistent ID",
+                                                "value": "info:dhjac/pid/MFA-21.8558"
+                                            },
+                                            {
+                                                "label": "AcNo.",
+                                                "value": "MFA-21.8558"
+                                            },
+                                            {
+                                                "label": "URL",
+                                                "value": "https://www.dh-jac.net/db/nishikie/MFA-21.8558/portal/"
+                                            },
+                                            {
+                                                "label": "CoGNo.",
+                                                "value": "MFA-21.8558"
+                                            },
+                                            {
+                                                "label": "Genre",
+                                                "value": "花鳥画"
+                                            },
+                                            {
+                                                "label": "Collection",
+                                                "value": "MFA_Boston"
+                                            },
+                                            {
+                                                "label": "Signature",
+                                                "value": "広重筆(弌立斎)"
+                                            },
+                                            {
+                                                "label": "Publisher",
+                                                "value": "広重〈1〉"
+                                            },
+                                            {
+                                                "label": "Censor's Seal",
+                                                "value": "渡"
+                                            },
+                                            {
+                                                "label": "Place of publication",
+                                                "value": "江戸"
+                                            },
+                                            {
+                                                "label": "Publisher's mark",
+                                                "value": "井佐野屋喜兵衛  "
+                                            },
+                                            {
+                                                "label": "thumbnail_url",
+                                                "value": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC141845.jpg"
+                                            },
+                                            {
+                                                "label": "image_url",
+                                                "value": "https://mfas3.s3.amazonaws.com/objects/SC141845.jpg"
+                                            },
+                                            {
+                                                "label": "Title",
+                                                "value": [
+                                                    {
+                                                        "@value": "「紫陽花（あじさい）に蝸牛（かたつむり）」",
+                                                        "@language": "ja"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "label": "Artist",
+                                                "value": [
+                                                    {
+                                                        "@value": "広重〈1〉",
+                                                        "@language": "ja"
+                                                    },
+                                                    {
+                                                        "@value": "Utagawa Hiroshige:1",
+                                                        "@language": "en"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "label": "「紫陽花（あじさい）に蝸牛（かたつむり）」",
+                                        "license": "https://www.mfa.org/about/terms-of-use",
+                                        "attribution": "MFA_Boston",
+                                        "sequences": [
+                                            {
+                                                "@type": "sc:Sequence",
+                                                "viewingHint": "individuals",
+                                                "thumbnail": {
+                                                    "@id": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC141845.jpg",
+                                                    "@type": "dctypes:Image",
+                                                    "format": "image/jpeg",
+                                                    "width": 34,
+                                                    "height": 140
+                                                },
+                                                "canvases": [
+                                                    {
+                                                        "@type": "sc:Canvas",
+                                                        "@id": "https://www.dh-jac.net/db/nishikie/MFA-21.8558/portal/canvas/1",
+                                                        "width": 385,
+                                                        "height": 1600,
+                                                        "label": "1",
+                                                        "images": [
+                                                            {
+                                                                "@id": "https://www.dh-jac.net/db/nishikie/MFA-21.8558/portal/annotation/1",
+                                                                "@type": "oa:Annotation",
+                                                                "motivation": "sc:painting",
+                                                                "on": "https://www.dh-jac.net/db/nishikie/MFA-21.8558/portal/canvas/1",
+                                                                "resource": {
+                                                                    "@id": "https://mfas3.s3.amazonaws.com/objects/SC141845.jpg",
+                                                                    "@type": "dctypes:Image",
+                                                                    "format": "image/jpeg",
+                                                                    "width": 385,
+                                                                    "height": 1600
+                                                                }
+                                                            }
+                                                        ],
+                                                        "thumbnail": {
+                                                            "@id": "https://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC141845.jpg",
+                                                            "@type": "dctypes:Image",
+                                                            "format": "image/jpeg",
+                                                            "width": 34,
+                                                            "height": 140
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "description": "「紫陽花（あじさい）に蝸牛（かたつむり）」, 花鳥画"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

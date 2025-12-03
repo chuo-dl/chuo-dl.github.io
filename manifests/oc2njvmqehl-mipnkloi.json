@@ -1,0 +1,568 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "松菖蒲丸桔梗文柄鏡"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "Genre"
+                ]
+            },
+            "value": {
+                "ja": [
+                    ""
+                ],
+                "en": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "松菖蒲丸桔梗文柄鏡"
+                ],
+                "en": [
+                    "Handled mirror with a pine-and-iris and circular bellflower motifs"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Collection Number"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "AW-CEN-002102-0000"
+                ],
+                "en": [
+                    "AW-CEN-002102-0000"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "藤原光長"
+                ],
+                "en": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Production Date"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "AD18"
+                ],
+                "en": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Production Place"
+                ]
+            },
+            "value": {
+                "ja": [
+                    ""
+                ],
+                "en": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Collector"
+                ]
+            },
+            "value": {
+                "ja": [
+                    ""
+                ],
+                "en": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Collect Date"
+                ]
+            },
+            "value": {
+                "ja": [
+                    ""
+                ],
+                "en": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Collect Place"
+                ]
+            },
+            "value": {
+                "ja": [
+                    ""
+                ],
+                "en": [
+                    ""
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "Credit Line"
+                ]
+            },
+            "value": {
+                "ja": [
+                    "\u003Cp\u003E慶應義塾（センチュリー赤尾コレクション）\u003C/p\u003E"
+                ],
+                "en": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "summary": {
+        "none": [
+            "\u003Cp\u003E江戸時代の柄鏡には記名されていることが多いが、中でもしばしば見られる名前があり、すなわちその名を持つ鏡師が多くの鏡を残したことになる。この鏡に刻された藤原光長という名もその一つである。が、銘文に記された制作年や鏡の作風の違いを調査することにより、光長に限らず、たとえ名が同じであるとしても同一人物が制作したとは限らないことがわかる。すなわち、鏡師の名は代々受け継がれ、襲名した鏡師たちが新たに作品を生み出していったのである。\u003C/p\u003E"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/2120/canvas/0000",
+            "type": "Canvas",
+            "height": 1200,
+            "width": 793,
+            "label": {
+                "none": [
+                    "光長作の鏡"
+                ]
+            },
+            "items": [
+                {
+                    "id": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/2120/canvas/0000/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/2120/annotation/0000-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/2120/canvas/0000",
+                            "body": {
+                                "id": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14121.tif/full/full/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 793,
+                                "service": [
+                                    {
+                                        "@id": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14121.tif",
+                                        "@type": "ImageService2",
+                                        "profile": "level1"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/2120/canvas/0000/annotations/q9fyhjjqkzq-mifo870v",
+                    "type": "AnnotationPage",
+                    "label": {
+                        "en": [
+                            "Inline annotations"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/2120/canvas/0000/annotations/q9fyhjjqkzq-mifo870v/annotation/2oajczqp3pk-mifo9vtn",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/2120/canvas/0000",
+                                "selector": [
+                                    {
+                                        "type": "FragmentSelector",
+                                        "value": "xywh=112,313,58,217"
+                                    }
+                                ]
+                            },
+                            "body": {
+                                "id": "https://api-iiif.db.kemco.keio.ac.jp/iiif/object/2120/canvas/0000/annotations/q9fyhjjqkzq-mifo870v/annotation/2oajczqp3pk-mifo9vtn/html/en/xta6d800ak-mifo9vto",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E藤原光長\u003C/p\u003E\n\u003Cp\u003E多くの鏡に記名されている人物のうちの一人。だが、同名義であっても違う作風のものがあることから全て同一人物ではなく、代々名前が受け継がれていったものだと考えられる。\u003C/p\u003E"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/8uxktc8jxkr-mifoj6w2",
+            "type": "Canvas",
+            "height": 1200,
+            "width": 1185,
+            "label": {
+                "en": [
+                    "蟠龍"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14097.tif/full/296,/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 296
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/8uxktc8jxkr-mifoj6w2/annotation-page/54kf6yq4z86-mifoj6w2",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/annotation/453qbnymb1d-mifoj6w2",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/8uxktc8jxkr-mifoj6w2",
+                            "body": {
+                                "id": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14097.tif/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1185,
+                                "service": [
+                                    {
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "@id": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14097.tif",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 1185,
+                                        "height": 1200,
+                                        "sizes": [
+                                            {
+                                                "width": 37,
+                                                "height": 37
+                                            },
+                                            {
+                                                "width": 74,
+                                                "height": 75
+                                            },
+                                            {
+                                                "width": 148,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 296,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 592,
+                                                "height": 600
+                                            }
+                                        ],
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16,
+                                                    32
+                                                ]
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/8uxktc8jxkr-mifoj6w2/annotations/r00h4kcmx3-mifomh8t",
+                    "type": "AnnotationPage",
+                    "label": {
+                        "en": [
+                            "Inline annotations"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/8uxktc8jxkr-mifoj6w2/annotations/r00h4kcmx3-mifomh8t/annotation/3104heh5v14-mifouses",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/8uxktc8jxkr-mifoj6w2#xywh=347,242,509,220",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/8uxktc8jxkr-mifoj6w2/annotations/r00h4kcmx3-mifomh8t/annotation/3104heh5v14-mifouses/html/en/1595w9gmyp8-mifouset",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E蟠龍（ばんりゅう）\u003C/p\u003E\n\u003Cp\u003Eこの紋様は３匹の蟠龍がとぐろを巻いている様子が描かれている。蟠龍は天には昇らず、地中に住まう龍のこと。\u003C/p\u003E"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y",
+            "type": "Canvas",
+            "height": 1200,
+            "width": 1237,
+            "label": {
+                "en": [
+                    "双鳳双獣"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14152.tif/full/309,/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 300,
+                    "width": 309
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotation-page/skli4h7rdke-mifp1b6y",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/annotation/qy7m5e99h5-mifp1b6y",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y",
+                            "body": {
+                                "id": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14152.tif/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1200,
+                                "width": 1237,
+                                "service": [
+                                    {
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "@id": "https://image-iiif.db.kemco.keio.ac.jp/srv/iiif/14152.tif",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 1237,
+                                        "height": 1200,
+                                        "sizes": [
+                                            {
+                                                "width": 38,
+                                                "height": 37
+                                            },
+                                            {
+                                                "width": 77,
+                                                "height": 75
+                                            },
+                                            {
+                                                "width": 154,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 309,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 618,
+                                                "height": 600
+                                            }
+                                        ],
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16,
+                                                    32
+                                                ]
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotations/oxqsn7i50d-mifp2v0r",
+                    "type": "AnnotationPage",
+                    "label": {
+                        "en": [
+                            "Inline annotations"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotations/oxqsn7i50d-mifp2v0r/annotation/3081jm01r43-mifp3wsa",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y",
+                                "selector": [
+                                    {
+                                        "type": "FragmentSelector",
+                                        "value": "xywh=561,309,313,267"
+                                    }
+                                ]
+                            },
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotations/oxqsn7i50d-mifp2v0r/annotation/3081jm01r43-mifp3wsa/html/en/mp7s3qhdj5-mifp3wsa",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E狻猊（さんげい）\u003C/p\u003E\n\u003Cp\u003E中国の伝説上の生き物。獅子と同一視されることもある。\u003C/p\u003E"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotations/oxqsn7i50d-mifp2v0r/annotation/g4fq04f22bq-mifp4h9r",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": {
+                                "type": "SpecificResource",
+                                "source": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y",
+                                "selector": [
+                                    {
+                                        "type": "FragmentSelector",
+                                        "value": "xywh=372,663,287,245"
+                                    }
+                                ]
+                            },
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotations/oxqsn7i50d-mifp2v0r/annotation/g4fq04f22bq-mifp4h9r/html/en/7pv54q7tpme-mifp4h9r",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E麒麟（きりん）\u003C/p\u003E"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotations/oxqsn7i50d-mifp2v0r/annotation/tcg58aoies-mifp5492",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y#xywh=320,371,253,229",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotations/oxqsn7i50d-mifp2v0r/annotation/tcg58aoies-mifp5492/html/en/jxi62jjcv2-mifp5492",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E鳳凰（おうほう）\u003C/p\u003E"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotations/oxqsn7i50d-mifp2v0r/annotation/q1d2xaufy9l-mifp5wgs",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y#xywh=688,601,209,244",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/oc2njvmqehl-mipnkloi.json/canvas/jr5yb5rffw-mifp1b6y/annotations/oxqsn7i50d-mifp2v0r/annotation/q1d2xaufy9l-mifp5wgs/html/en/nq1k0jryo1h-mifp5wgs",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E鸞鳥（らんちょう）\u003C/p\u003E"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
