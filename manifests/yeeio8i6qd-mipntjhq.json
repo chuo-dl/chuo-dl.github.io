@@ -1,0 +1,592 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "つばめ"
+        ]
+    },
+    "metadata": [
+        {
+            "label": {
+                "none": [
+                    "請求記号"
+                ]
+            },
+            "value": {
+                "none": [
+                    "721.9/YAM"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "コレクション名"
+                ]
+            },
+            "value": {
+                "none": [
+                    "浮世絵に見る学びと遊び"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "著者（姓＋名）"
+                ]
+            },
+            "value": {
+                "none": [
+                    "山本,昇雲"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "著者（ヨミ）（姓＋名）"
+                ]
+            },
+            "value": {
+                "none": [
+                    "ヤマモト,ショウウン"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "所属"
+                ]
+            },
+            "value": {
+                "none": [
+                    "附属図書館"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "内容記述"
+                ]
+            },
+            "value": {
+                "none": [
+                    "「子供あそび, [3]」収録"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "資料ID"
+                ]
+            },
+            "value": {
+                "none": [
+                    "10912402"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "書誌情報（発行年：リテラル）"
+                ]
+            },
+            "value": {
+                "none": [
+                    "1906-1907"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "言語"
+                ]
+            },
+            "value": {
+                "none": [
+                    "jpn"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "所在"
+                ]
+            },
+            "value": {
+                "none": [
+                    "日本近代教育史資料(東京学芸大学附属図書館)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "資源タイプ・NII"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Others"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "出版者"
+                ]
+            },
+            "value": {
+                "none": [
+                    "松木平吉"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "権利"
+                ]
+            },
+            "value": {
+                "none": [
+                    "Creative Commons Attribution 4.0 International"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "デジタルアーカイブ用権利情報"
+                ]
+            },
+            "value": {
+                "none": [
+                    "コンテンツ（画像等本文データ）およびメタデータの二次利用に関する詳細情報、原資料の利用については、\u003Cstrong\u003E\u003Ca data-entity-substitution=\"canonical\" data-entity-type=\"node\" data-entity-uuid=\"14680f95-3c29-40ff-81cf-c3d7d201c24f\" href=\"/node/2\"\u003E利用案内のページ\u003C/a\u003E\u003C/strong\u003Eをご覧ください。"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "主題"
+                ]
+            },
+            "value": {
+                "none": [
+                    "遊戯 (児童)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "時代"
+                ]
+            },
+            "value": {
+                "none": [
+                    "明治時代"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "タイトル"
+                ]
+            },
+            "value": {
+                "none": [
+                    "ぬれつばめ : 子供あそひ"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "タイトル（ヨミ：ローマ字）"
+                ]
+            },
+            "value": {
+                "none": [
+                    "nure tsubame kodomo asobi"
+                ]
+            }
+        },
+        {
+            "label": {
+                "none": [
+                    "タイトル（ヨミ）"
+                ]
+            },
+            "value": {
+                "none": [
+                    "ヌレ ツバメ コドモ アソビ"
+                ]
+            }
+        }
+    ],
+    "requiredStatement": {
+        "label": {
+            "none": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "none": [
+                "東京学芸大学教育コンテンツアーカイブ"
+            ]
+        }
+    },
+    "provider": [
+        {
+            "id": "http://example.org/provider",
+            "type": "Agent",
+            "label": {
+                "none": [
+                    ""
+                ]
+            },
+            "logo": [
+                {
+                    "id": "https://d-archive.u-gakugei.ac.jp/themes/custom/ugakugei_archive/images/da_logo.gif",
+                    "type": "unknown"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9",
+            "type": "Canvas",
+            "height": 3632,
+            "width": 2411,
+            "label": {
+                "en": [
+                    "堀切の花菖蒲"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.artic.edu/iiif/2/3d41e31b-9fb9-c2dc-293b-c0ac68d6db8f/full/301,/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 454,
+                    "width": 301
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotation-page/dn55lgmoswo-mifogwo9",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/annotation/ro91uwj8qvl-mifogwo9",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9",
+                            "body": {
+                                "id": "https://www.artic.edu/iiif/2/3d41e31b-9fb9-c2dc-293b-c0ac68d6db8f/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 3632,
+                                "width": 2411,
+                                "service": [
+                                    {
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "@id": "https://www.artic.edu/iiif/2/3d41e31b-9fb9-c2dc-293b-c0ac68d6db8f",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 2411,
+                                        "height": 3632,
+                                        "sizes": [
+                                            {
+                                                "width": 75,
+                                                "height": 114
+                                            },
+                                            {
+                                                "width": 151,
+                                                "height": 227
+                                            },
+                                            {
+                                                "width": 301,
+                                                "height": 454
+                                            },
+                                            {
+                                                "width": 603,
+                                                "height": 908
+                                            },
+                                            {
+                                                "width": 1206,
+                                                "height": 1816
+                                            },
+                                            {
+                                                "width": 2411,
+                                                "height": 3632
+                                            }
+                                        ],
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16,
+                                                    32
+                                                ]
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level2.json",
+                                            {
+                                                "formats": [
+                                                    "jpg",
+                                                    "tif",
+                                                    "gif",
+                                                    "png"
+                                                ],
+                                                "maxArea": 8756752,
+                                                "qualities": [
+                                                    "bitonal",
+                                                    "default",
+                                                    "gray",
+                                                    "color"
+                                                ],
+                                                "supports": [
+                                                    "regionByPx",
+                                                    "sizeByW",
+                                                    "sizeByWhListed",
+                                                    "cors",
+                                                    "regionSquare",
+                                                    "sizeByDistortedWh",
+                                                    "canonicalLinkHeader",
+                                                    "sizeByConfinedWh",
+                                                    "sizeByPct",
+                                                    "jsonldMediaType",
+                                                    "regionByPct",
+                                                    "rotationArbitrary",
+                                                    "sizeByH",
+                                                    "baseUriRedirect",
+                                                    "rotationBy90s",
+                                                    "profileLinkHeader",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "mirroring"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotations/tlflnrugyg8-mifojmyb",
+                    "type": "AnnotationPage",
+                    "label": {
+                        "en": [
+                            "Inline annotations"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotations/tlflnrugyg8-mifojmyb/annotation/sypjeplvu7t-mifonlki",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9#xywh=1545,918,570,356",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotations/tlflnrugyg8-mifojmyb/annotation/sypjeplvu7t-mifonlki/html/en/qsc4chvf0i9-mifonlki",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E大きい花菖蒲\u003C/p\u003E"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotations/tlflnrugyg8-mifojmyb/annotation/ml574i7pome-mifoo4pz",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9#xywh=141,2471,2176,381",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotations/tlflnrugyg8-mifojmyb/annotation/ml574i7pome-mifoo4pz/html/en/59tplfnu75-mifoo4pz",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E小さい花菖蒲\u003C/p\u003E"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotations/tlflnrugyg8-mifojmyb/annotation/gipeef78tp-mifp14aa",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9#xywh=988,2284,168,343",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotations/tlflnrugyg8-mifojmyb/annotation/gipeef78tp-mifp14aa/html/en/12byr6sjl1cr-mifp14aa",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E菖蒲をみる人\u003C/p\u003E"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotations/tlflnrugyg8-mifojmyb/annotation/d455ssjy8sa-mifp28p5",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9#xywh=2053,280,139,575",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/r9cl4z9t8h-mifogwo9/annotations/tlflnrugyg8-mifojmyb/annotation/d455ssjy8sa-mifp28p5/html/en/g1cqshgxy4g-mifp28p5",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E名所江戸百景\u003C/p\u003E"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e",
+            "type": "Canvas",
+            "height": 2544,
+            "width": 1896,
+            "label": {
+                "en": [
+                    "宇治橋平等院望"
+                ]
+            },
+            "thumbnail": [
+                {
+                    "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/arc!Prints!arcUP!arcUP1914/full/1896,/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 2544,
+                    "width": 1896
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e/annotation-page/3dmrswv68jc-mifp6i7e",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/annotation/t0em0k3pw08-mifp6i7e",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e",
+                            "body": {
+                                "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/arc!Prints!arcUP!arcUP1914/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2544,
+                                "width": 1896,
+                                "service": [
+                                    {
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "@id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/arc!Prints!arcUP!arcUP1914",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 1896,
+                                        "height": 2544,
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level2.json",
+                                            {
+                                                "formats": [
+                                                    "jpg",
+                                                    "png"
+                                                ],
+                                                "qualities": [
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "mirroring",
+                                                    "rotationArbitrary",
+                                                    "sizeAboveFull",
+                                                    "regionSquare"
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1896,
+                                                "height": 2544
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e/annotations/3k90ogd4yci-mifp7ohg",
+                    "type": "AnnotationPage",
+                    "label": {
+                        "en": [
+                            "Inline annotations"
+                        ]
+                    },
+                    "items": [
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e/annotations/3k90ogd4yci-mifp7ohg/annotation/il92anraiaa-mifp8msf",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e#xywh=405,1434,1217,720",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e/annotations/3k90ogd4yci-mifp7ohg/annotation/il92anraiaa-mifp8msf/html/en/otcdh80o7k-mifp8msf",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E西大谷眼鏡橋\u003C/p\u003E"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e/annotations/3k90ogd4yci-mifp7ohg/annotation/ktvxwn6oia-mifpc5qt",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e#xywh=111,1564,596,672",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e/annotations/3k90ogd4yci-mifp7ohg/annotation/ktvxwn6oia-mifpc5qt/html/en/8bryoehcaj5-mifpc5qt",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E木\u003C/p\u003E"
+                            }
+                        },
+                        {
+                            "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e/annotations/3k90ogd4yci-mifp7ohg/annotation/ce3ytwk8ktb-mifpcg7s",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "target": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e#xywh=163,399,1597,986",
+                            "body": {
+                                "id": "https://w3id.org/chuo-dl/manifests/yeeio8i6qd-mipntjhq/manifest.json/canvas/v6fs9m487vf-mifp6i7e/annotations/3k90ogd4yci-mifp7ohg/annotation/ce3ytwk8ktb-mifpcg7s/html/en/ckcyfxdhiz4-mifpcg7t",
+                                "type": "TextualBody",
+                                "format": "text/html",
+                                "language": "en",
+                                "value": "\u003Cp\u003E山\u003C/p\u003E"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

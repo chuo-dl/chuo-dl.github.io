@@ -1,0 +1,211 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://w3id.org/chuo-dl/manifests/wqjyrdnmd3r-mipnx90f.json",
+    "@type": "sc:Manifest",
+    "label": [
+        {
+            "@language": "ja",
+            "@value": "「富嶽三十六景」 「相州仲原（そうしゅうなかはら）」"
+        },
+        {
+            "@language": "en",
+            "@value": "「富嶽三十六景」 「相州仲原（そうしゅうなかはら）」"
+        }
+    ],
+    "description": [
+        "系統分類題: 名所絵",
+        "All Group  No.: MFA-21.5362",
+        "外部リンク名1: ORG_Site",
+        "AcNo.: MFA-21.5362",
+        "Col重複no.: 1",
+        "絵師ローマ字: Katsushika Hokusai",
+        "資料グループ: 浮世絵",
+        "判種: 大判",
+        "作品位置: 001:001/01;01",
+        "All重複No.: 1",
+        "外部リンク名4: MFA検索",
+        "外部リンク名2: Ukiyo-e.ORG",
+        "改印等: 極",
+        "外部リンク名3: ORG_img",
+        "出版年月日備考: ～天保4頃"
+    ],
+    "attribution": [
+        {
+            "@value": "ボストン美術館",
+            "@language": "ja"
+        },
+        {
+            "@value": "「ARC浮世絵ポータルデータベース」の画像をIIIFビューアで閲覧できるように(https://www.dh-jac.net/db/nishikie/MFA-21.5362/portal/)に基づいて作成",
+            "@language": "ja"
+        },
+        {
+            "@value": "Museum of Fine Arts, Boston",
+            "@language": "en"
+        },
+        {
+            "@value": "Created by \"ARC Ukiyo-e Portal Database\" (https://www.dh-jac.net/db/nishikie/MFA-21.5362/portal/)",
+            "@language": "en"
+        }
+    ],
+    "metadata": [
+        {
+            "label": [
+                {
+                    "@value": "収録DB",
+                    "@language": "ja",
+                    "@id": "https://jpsearch.go.jp/term/property#sourceInfo"
+                },
+                {
+                    "@value": "Database",
+                    "@language": "en",
+                    "@id": "https://jpsearch.go.jp/term/property#sourceInfo"
+                }
+            ],
+            "value": [
+                {
+                    "@value": "ARC浮世絵ポータルデータベース",
+                    "@language": "ja"
+                },
+                {
+                    "@value": "ARC Ukiyo-e Portal Database",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "label": [
+                {
+                    "@value": "基本区分",
+                    "@language": "ja",
+                    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+                },
+                {
+                    "@value": "Type",
+                    "@language": "en",
+                    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+                }
+            ],
+            "value": [
+                {
+                    "@value": "版画",
+                    "@language": "ja"
+                },
+                {
+                    "@value": "Print",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "label": [
+                {
+                    "@value": "キーワード",
+                    "@language": "ja",
+                    "@id": "http://schema.org/about"
+                },
+                {
+                    "@value": "Keyword",
+                    "@language": "en",
+                    "@id": "http://schema.org/about"
+                }
+            ],
+            "value": [
+                {
+                    "@value": "名所絵",
+                    "@language": "ja"
+                },
+                {
+                    "@value": "名所絵",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "label": [
+                {
+                    "@value": "人物",
+                    "@language": "ja",
+                    "@id": "https://jpsearch.go.jp/term/property#agential"
+                },
+                {
+                    "@value": "People",
+                    "@language": "en",
+                    "@id": "https://jpsearch.go.jp/term/property#agential"
+                }
+            ],
+            "value": [
+                {
+                    "@value": "葛飾北斎",
+                    "@language": "ja"
+                },
+                {
+                    "@value": "Katsushika, Hokusai",
+                    "@language": "en"
+                }
+            ]
+        },
+        {
+            "label": [
+                {
+                    "@value": "時間",
+                    "@language": "ja",
+                    "@id": "https://jpsearch.go.jp/term/property#temporal"
+                },
+                {
+                    "@value": "Time",
+                    "@language": "en",
+                    "@id": "https://jpsearch.go.jp/term/property#temporal"
+                }
+            ],
+            "value": [
+                {
+                    "@value": "1831年",
+                    "@language": "ja"
+                },
+                {
+                    "@value": "1831",
+                    "@language": "en"
+                }
+            ]
+        }
+    ],
+    "seeAlso": "https://jpsearch.go.jp/data/arc_nishikie-MFA_21_5362",
+    "related": "https://cultural.jp/item/arc_nishikie-MFA_21_5362",
+    "thumbnail": "http://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC130506.jpg",
+    "sequences": [
+        {
+            "@id": "https://w3id.org/chuo-dl/manifests/wqjyrdnmd3r-mipnx90f/sequence/normal",
+            "@type": "sc:Sequence",
+            "label": "Current order",
+            "viewingDirection": "left-to-right",
+            "canvases": [
+                {
+                    "@id": "https://w3id.org/chuo-dl/manifests/wqjyrdnmd3r-mipnx90f/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 1,
+                    "width": 1,
+                    "images": [
+                        {
+                            "@id": "https://w3id.org/chuo-dl/manifests/wqjyrdnmd3r-mipnx90f/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://w3id.org/chuo-dl/manifests/wqjyrdnmd3r-mipnx90f/canvas/p1",
+                            "resource": {
+                                "@id": "http://mfas3.s3.amazonaws.com/objects/SC130506.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1,
+                                "width": 1
+                            }
+                        }
+                    ],
+                    "label": "[1] ",
+                    "thumbnail": {
+                        "@id": "http://www.arc.ritsumei.ac.jp/archive01/theater/th_image/PB/Boston/Prints/SC/SC130506.jpg"
+                    }
+                }
+            ]
+        }
+    ],
+    "license": "http://www.mfa.org/about/terms-of-use"
+}
