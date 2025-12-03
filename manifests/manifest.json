@@ -1,0 +1,315 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Blank Manifest"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/2ohimerzkhm-mifovsw6",
+      "type": "Canvas",
+      "height": 2700,
+      "width": 1854,
+      "label": {
+        "en": [
+          "天狗"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/arc!Prints!arcUP!arcUP3979/full/1854,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 2700,
+          "width": 1854
+        }
+      ],
+      "items": [
+        {
+          "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/2ohimerzkhm-mifovsw6/annotation-page/6mcj159r6bl-mifovsw6",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#annotation/2wv8phfqu26-mifovsw5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/2ohimerzkhm-mifovsw6",
+              "body": {
+                "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/arc!Prints!arcUP!arcUP3979/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2700,
+                "width": 1854,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/arc!Prints!arcUP!arcUP3979",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 1854,
+                    "height": 2700,
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "jpg",
+                          "png"
+                        ],
+                        "qualities": [
+                          "color",
+                          "gray"
+                        ],
+                        "supports": [
+                          "mirroring",
+                          "rotationArbitrary",
+                          "sizeAboveFull",
+                          "regionSquare"
+                        ]
+                      }
+                    ],
+                    "sizes": [
+                      {
+                        "width": 1854,
+                        "height": 2700
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/2ohimerzkhm-mifovsw6/annotations/t6v1wmrrje-mifp1d8z",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/2ohimerzkhm-mifovsw6/annotations/t6v1wmrrje-mifp1d8z/annotation/i9trsw7r4qk-mifp1p1i",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/2ohimerzkhm-mifovsw6#xywh=747,365,228,348",
+              "body": {
+                "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/2ohimerzkhm-mifovsw6/annotations/t6v1wmrrje-mifp1d8z/annotation/i9trsw7r4qk-mifp1p1i/html/en/0bwsh8dyiynj-mifp1p1i",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>歌舞伎みたい</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/5b1hw6f15ap-mifox1wp",
+      "type": "Canvas",
+      "height": 2000,
+      "width": 1574,
+      "label": {
+        "en": [
+          "鬼"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/BM!Books!BM-2020.3015!BM-2020.3015.082/full/1574,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 2000,
+          "width": 1574
+        }
+      ],
+      "items": [
+        {
+          "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/5b1hw6f15ap-mifox1wp/annotation-page/rsjzxj2z088-mifox1wp",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#annotation/2v87wo6gonv-mifox1wo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/5b1hw6f15ap-mifox1wp",
+              "body": {
+                "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/BM!Books!BM-2020.3015!BM-2020.3015.082/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2000,
+                "width": 1574,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/BM!Books!BM-2020.3015!BM-2020.3015.082",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 1574,
+                    "height": 2000,
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "jpg",
+                          "png"
+                        ],
+                        "qualities": [
+                          "color",
+                          "gray"
+                        ],
+                        "supports": [
+                          "mirroring",
+                          "rotationArbitrary",
+                          "sizeAboveFull",
+                          "regionSquare"
+                        ]
+                      }
+                    ],
+                    "sizes": [
+                      {
+                        "width": 1574,
+                        "height": 2000
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/5b1hw6f15ap-mifox1wp/annotations/hr4myf9hfd-mifp1tle",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/5b1hw6f15ap-mifox1wp/annotations/hr4myf9hfd-mifp1tle/annotation/7b7muphs0u-mifp23ca",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/5b1hw6f15ap-mifox1wp#xywh=422,456,273,199",
+              "body": {
+                "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/5b1hw6f15ap-mifox1wp/annotations/hr4myf9hfd-mifp1tle/annotation/7b7muphs0u-mifp23ca/html/en/niftza1rhrj-mifp23ca",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>顔がいかつくてかっこいい</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/so3apvxu5g-mifoycxl",
+      "type": "Canvas",
+      "height": 2700,
+      "width": 1797,
+      "label": {
+        "en": [
+          "毒蛇"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/Leiden!Prints!Lei-P0122!Lei-3437-222/full/1797,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 2700,
+          "width": 1797
+        }
+      ],
+      "items": [
+        {
+          "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/so3apvxu5g-mifoycxl/annotation-page/tpwx3fe0hkm-mifoycxl",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#annotation/rbnq1qyyi5o-mifoycxl",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/so3apvxu5g-mifoycxl",
+              "body": {
+                "id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/Leiden!Prints!Lei-P0122!Lei-3437-222/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2700,
+                "width": 1797,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://www.arc.ritsumei.ac.jp/images/PB/Scaler/iiif/Leiden!Prints!Lei-P0122!Lei-3437-222",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 1797,
+                    "height": 2700,
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "jpg",
+                          "png"
+                        ],
+                        "qualities": [
+                          "color",
+                          "gray"
+                        ],
+                        "supports": [
+                          "mirroring",
+                          "rotationArbitrary",
+                          "sizeAboveFull",
+                          "regionSquare"
+                        ]
+                      }
+                    ],
+                    "sizes": [
+                      {
+                        "width": 1797,
+                        "height": 2700
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/so3apvxu5g-mifoycxl/annotations/sbkgmm9cbp-mifp27pq",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/so3apvxu5g-mifoycxl/annotations/sbkgmm9cbp-mifp27pq/annotation/ga6zp4x9v6f-mifp2g8o",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/so3apvxu5g-mifoycxl#xywh=895,935,382,476",
+              "body": {
+                "id": "https://w3id.org/chuo-dl/manifests/igbwayzta9e-mifovkls#canvas/so3apvxu5g-mifoycxl/annotations/sbkgmm9cbp-mifp27pq/annotation/ga6zp4x9v6f-mifp2g8o/html/en/0rnzb74oj8sp-mifp2g8o",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>目が笑っていて楽しそう</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
