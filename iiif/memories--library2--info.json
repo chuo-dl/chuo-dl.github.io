@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://w3id.org/chuo-dl/iiif/library2",
+  "@id": "https://w3id.org/chuo-dl/iiif/memories/library2",
   "protocol": "http://iiif.io/api/image",
   "width": 1477,
   "height": 1108,
