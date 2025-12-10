@@ -1,0 +1,44 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://w3id.org/chuo-dl/manifests/nrxsrau0n6k-mizo3r5s",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "テスト"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://w3id.org/chuo-dl/manifests/nrxsrau0n6k-mizo3r5s/canvas/cuhycnk6psa-mizo3yvm",
+      "type": "Canvas",
+      "height": 4032,
+      "width": 3024,
+      "label": {
+        "ja": [
+          "1枚目"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://w3id.org/chuo-dl/manifests/nrxsrau0n6k-mizo3r5s/canvas/cuhycnk6psa-mizo3yvm/annotation-page/meg47wb6n5n-mizo3yvm",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://w3id.org/chuo-dl/manifests/nrxsrau0n6k-mizo3r5s/canvas/cuhycnk6psa-mizo3yvm/annotation-page/meg47wb6n5n-mizo3yvm/annotation/cspqm73cg2-mizo72eo",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://w3id.org/chuo-dl/manifests/nrxsrau0n6k-mizo3r5s/canvas/cuhycnk6psa-mizo3yvm",
+              "body": {
+                "id": "https://w3id.org/chuo-dl/iiif/memories/in-forege/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4032,
+                "width": 3024
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
