@@ -1,0 +1,19 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://w3id.org/chuo-dl/iiif/kita2",
+  "protocol": "http://iiif.io/api/image",
+  "width": 534,
+  "height": 948,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ],
+      "supports": []
+    }
+  ]
+}
