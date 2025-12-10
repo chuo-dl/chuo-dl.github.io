@@ -7,5 +7,16 @@
   "width": 3024,
   "height": 4032,
   "maxWidth": 3024,
-  "maxHeight": 4032
+  "maxHeight": 4032,
+  "tiles": [
+    {
+      "width": 3024,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
 }
