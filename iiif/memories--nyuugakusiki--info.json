@@ -7,5 +7,16 @@
   "width": 1687,
   "height": 970,
   "maxWidth": 1687,
-  "maxHeight": 970
+  "maxHeight": 970,
+  "tiles": [
+    {
+      "width": 1687,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
 }
