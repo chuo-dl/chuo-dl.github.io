@@ -1,19 +1,11 @@
 {
-  "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://w3id.org/chuo-dl/iiif/memories/library2",
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "https://w3id.org/chuo-dl/iiif/memories/library2",
+  "type": "ImageService3",
   "protocol": "http://iiif.io/api/image",
+  "profile": "level0",
   "width": 1477,
   "height": 1108,
-  "profile": [
-    "http://iiif.io/api/image/2/level0.json",
-    {
-      "formats": [
-        "jpg"
-      ],
-      "qualities": [
-        "default"
-      ],
-      "supports": []
-    }
-  ]
+  "maxWidth": 1477,
+  "maxHeight": 1108
 }
