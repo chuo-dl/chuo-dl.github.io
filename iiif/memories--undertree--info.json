@@ -1,19 +1,11 @@
 {
-  "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://w3id.org/chuo-dl/iiif/memories/undertree",
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "https://w3id.org/chuo-dl/iiif/memories/undertree",
+  "type": "ImageService3",
   "protocol": "http://iiif.io/api/image",
+  "profile": "level0",
   "width": 4032,
   "height": 3024,
-  "profile": [
-    "http://iiif.io/api/image/2/level0.json",
-    {
-      "formats": [
-        "jpg"
-      ],
-      "qualities": [
-        "default"
-      ],
-      "supports": []
-    }
-  ]
+  "maxWidth": 4032,
+  "maxHeight": 3024
 }
