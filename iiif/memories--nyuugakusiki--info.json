@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://w3id.org/chuo-dl/iiif/nyuugakusiki",
+  "@id": "https://w3id.org/chuo-dl/iiif/memories/nyuugakusiki",
   "protocol": "http://iiif.io/api/image",
   "width": 1687,
   "height": 970,
