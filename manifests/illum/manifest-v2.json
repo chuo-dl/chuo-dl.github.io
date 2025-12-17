@@ -1,0 +1,161 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://w3id.org/chuo-dl/manifests/illum/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "イルミネーション",
+  "metadata": [
+    {
+      "label": "場所",
+      "value": "3号館正面"
+    },
+    {
+      "label": "関連時期",
+      "value": "冬の日没後"
+    },
+    {
+      "label": "説明",
+      "value": "冬の日没後，授業が終わって3号館を出ると，この景色に出会います．授業で疲労した目にライトアップが染みます．\n"
+    },
+    {
+      "label": "関連する物事",
+      "value": "授業終わり"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "https://w3id.org/chuo-dl/manifests/illum/sequence0",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/zjrduzjstck-mizoqfda",
+          "@type": "sc:Canvas",
+          "height": 948,
+          "width": 534,
+          "label": "illum1",
+          "images": [
+            {
+              "@id": "https://w3id.org/chuo-dl/manifests/illum/annotation/hwwg7l81uo6-mizoqenp",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://w3id.org/chuo-dl/manifests/illum/canvas/zjrduzjstck-mizoqfda",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://w3id.org/chuo-dl/iiif/memories/illum1/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 948,
+                "width": 534
+              }
+            }
+          ],
+          "annotations": {
+            "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/zjrduzjstck-mizoqfda/annotations/9hpc9cyziba-mizoxbvg",
+            "@type": "sc:AnnotationList",
+            "label": "Inline annotations",
+            "resources": {
+              "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/zjrduzjstck-mizoqfda/annotations/9hpc9cyziba-mizoxbvg/annotation/166qe99yhimj-mizoxlz6",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://w3id.org/chuo-dl/manifests/illum/canvas/zjrduzjstck-mizoqfda",
+                  "type": "Canvas"
+                },
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=270,141,109,314"
+                }
+              },
+              "resource": {
+                "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/zjrduzjstck-mizoqfda/annotations/9hpc9cyziba-mizoxbvg/annotation/166qe99yhimj-mizoxlz6/html/en/mrq6sgh0y9s-mizoxlz6",
+                "format": "text/html"
+              }
+            }
+          }
+        },
+        {
+          "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/6sazmfhlpcw-mizosst3",
+          "@type": "sc:Canvas",
+          "height": 948,
+          "width": 534,
+          "label": "illum2",
+          "images": [
+            {
+              "@id": "https://w3id.org/chuo-dl/manifests/illum/annotation/b8pg6ixi5te-mizossak",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://w3id.org/chuo-dl/manifests/illum/canvas/6sazmfhlpcw-mizosst3",
+                  "type": "Canvas"
+                }
+              },
+              "resource": {
+                "@id": "https://w3id.org/chuo-dl/iiif/memories/illum2/full/max/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 948,
+                "width": 534
+              }
+            }
+          ],
+          "annotations": {
+            "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/6sazmfhlpcw-mizosst3/annotations/m644ym6og3q-mizp8cxn",
+            "@type": "sc:AnnotationList",
+            "label": "Inline annotations",
+            "resources": [
+              {
+                "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/6sazmfhlpcw-mizosst3/annotations/m644ym6og3q-mizp8cxn/annotation/gsyzzydh329-mizp8sly",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": {
+                  "type": "SpecificResource",
+                  "source": {
+                    "id": "https://w3id.org/chuo-dl/manifests/illum/canvas/6sazmfhlpcw-mizosst3",
+                    "type": "Canvas"
+                  },
+                  "selector": {
+                    "type": "FragmentSelector",
+                    "value": "xywh=14,399,414,192"
+                  }
+                },
+                "resource": {
+                  "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/6sazmfhlpcw-mizosst3/annotations/m644ym6og3q-mizp8cxn/annotation/gsyzzydh329-mizp8sly/html/en/5v8emfoaw9v-mizp8sly",
+                  "format": "text/html"
+                }
+              },
+              {
+                "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/6sazmfhlpcw-mizosst3/annotations/m644ym6og3q-mizp8cxn/annotation/fqi8ba86ba-mizp9644",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "on": {
+                  "type": "SpecificResource",
+                  "source": {
+                    "id": "https://w3id.org/chuo-dl/manifests/illum/canvas/6sazmfhlpcw-mizosst3",
+                    "type": "Canvas"
+                  },
+                  "selector": {
+                    "type": "FragmentSelector",
+                    "value": "xywh=260,287,242,75"
+                  }
+                },
+                "resource": {
+                  "@id": "https://w3id.org/chuo-dl/manifests/illum/canvas/6sazmfhlpcw-mizosst3/annotations/m644ym6og3q-mizp8cxn/annotation/fqi8ba86ba-mizp9644/html/en/q438pdmskdl-mizp9644",
+                  "format": "text/html"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "structures": []
+}
