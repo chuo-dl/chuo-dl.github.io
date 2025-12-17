@@ -12,8 +12,7 @@
        :illum1
        :illum2
     ];
-    schema:text "冬の日没後，授業が終わって3号館を出ると，この景色に出会います．授業で疲労した目にライトアップが染みます"
-@ja .
+    schema:text "冬の日没後，授業が終わって3号館を出ると，この景色に出会います．授業で疲労した目にライトアップが染みます"@ja .
 
 :illum1 a schema:Photograph ;
     rdfs:label "illum1" ;
