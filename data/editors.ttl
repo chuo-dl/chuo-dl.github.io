@@ -1,0 +1,36 @@
+@prefix : <http://w3id.org/chuo-dl/resource/editors/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:semantic a foaf:Person ;
+    foaf:nick "semantic";
+    foaf:workplaceHomepage <https://sil.r.chuo-u.ac.jp/home/> .
+
+:taro a foaf:Person ;
+    foaf:nick "タロウ"@ja;
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/> .
+
+:heather a foaf:Person ;
+    foaf:nick "ヘザー"@ja;
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/> .
+
+:raisehakuragekibou a foaf:Person ;
+    foaf:nick "来世はくらげ希望"@ja ;
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/> .
+
+:tokyo a foaf:Person ;
+    foaf:nick "東京"@ja;
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/> .
+
+:cocoabrown a foaf:Person ;
+    foaf:nick "ココアブラウン"@ja;
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/>.
+
+:ririri a foaf:Person ;
+    foaf:nick "りりり";
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/> .
+
+:cherry a foaf:Person ;
+    foaf:nick "さくらんぼ"@ja ;
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/> .
