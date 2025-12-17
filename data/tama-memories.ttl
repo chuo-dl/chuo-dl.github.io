@@ -1,7 +1,7 @@
 @prefix : <https://w3id.org/chuo-dl/resource/memories/> .
 @prefix ed: <http://w3id.org/chuo-dl/resource/editors/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix schema: <https://schema.org/> . 
+@prefix schema: <http://schema.org/> . 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 :illum a :PhotoEssay ;
