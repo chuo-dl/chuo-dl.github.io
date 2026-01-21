@@ -4,6 +4,20 @@
 @prefix schema: <http://schema.org/> . 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
+@prefix : <https://w3id.org/chuo-dl/resource/memories/> .
+@prefix ed: <http://w3id.org/chuo-dl/resource/editors/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <https://schema.org/> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+
+<https://w3id.org/chuo-dl/resource/memories/>
+    a dcat:Dataset ;
+    dct:title "多摩キャンパス思い出アーカイブ"@ja ;
+    dct:issued "2026-01-21"^^xsd:date ;
+    dct:description "中央大学の学生・教員による多摩キャンパスの思い出に関するフォトエッセイのデータセット"@ja .
+
 :illum a :PhotoEssay ;
     rdfs:label "イルミネーション"@ja ;
     schema:author ed:cherry ;
