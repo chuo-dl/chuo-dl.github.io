@@ -17,3 +17,31 @@
     a rdfs:Class ;
     rdfs:label "Photo Essay"@en, "フォトエッセイ"@ja ;
     rdfs:subClassOf schema:CreativeWork .
+
+:trigger a :PhotoEssay ;
+    rdfs:label "きっかけと結果"@ja ;
+    schema:author ed:raisehakuragekibou ;
+    schema:title "きっかけと結果"@ja ;
+    :hasPart :hitomebore,:nyuugakusiki ;
+    schema:text "大学のツアーに参加した際に図書館からの景色にひとめぼれして受験を決意しました。たまに見返していた思い出深い写真です。そのかいあってか合格し、人が大量にいる入学式に参加できました。密度やばかった..."@ja .
+
+:hitomebore a schema:Photograph ;
+    rdfs:label "入学前撮影図書館" ;
+    schema:title "入学前撮影図書館" ;
+    schema:author ed:raisehakuragekibou ;
+    schema:image  
+"https://w3id.org/chuo-dl/iiif/memories/hitomebore/full/max/0/default.jpg" .
+
+:nyuugakusiki a schema:Photograph ;
+    rdfs:label "入学式" ;
+    schema:title "入学式" ;
+    schema:author ed:raisehakuragekibou ;
+    schema:image  
+"https://w3id.org/chuo-dl/iiif/memories/nyuugakusiki/full/max/0/default.jpg" .
+
+:Library a schema:Place ;
+    schema:name "図書館4F" ;
+    schema:containedInPlace "図書館" ;
+    schema:latitude 35.64249295279742 ;
+    schema:longitude 139.4048657698473 ;
+    schema:hasMap <https://www.google.co.jp/maps/place/%E4%B8%AD%E5%A4%AE%E5%A4%A7%E5%AD%A6+%E4%B8%AD%E5%A4%AE%E5%9B%B3%E6%9B%B8%E9%A4%A8/@35.6424523,139.4047175,19.53z/data=!4m7!3m6!1s0x6018e2fd411f8a21:0x1d8311728934190b!4b1!8m2!3d35.6422283!4d139.404863!16s%2Fg%2F11c6sfzcm8?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D> .
