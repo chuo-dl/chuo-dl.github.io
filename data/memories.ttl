@@ -12,6 +12,8 @@
     dct:title "多摩キャンパス思い出アーカイブ"@ja ;
     dct:issued "2026-01-21"^^xsd:date ;
     dct:description "中央大学の学生・教員による多摩キャンパスの思い出に関するフォトエッセイのデータセット"@ja .
+    dct:hasPart :trigger
+
 
 :PhotoEssay
     a rdfs:Class ;
