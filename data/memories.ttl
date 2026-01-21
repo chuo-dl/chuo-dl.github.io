@@ -13,10 +13,7 @@
     dct:issued "2026-01-21"^^xsd:date ;
     dct:description "中央大学の学生・教員による多摩キャンパスの思い出に関するフォトエッセイのデータセット"@ja .
 
-
-:PhotoEssay a rdfs:Class ;
-    rdfs:label [
-        "Photo Essay"@en,
-        "フォトエッセイ"@ja
-    ];
+:PhotoEssay
+    a rdfs:Class ;
+    rdfs:label "Photo Essay"@en, "フォトエッセイ"@ja ;
     rdfs:subClassOf schema:CreativeWork .
