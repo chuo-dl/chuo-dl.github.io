@@ -2,11 +2,10 @@
 @prefix ed: <http://w3id.org/chuo-dl/resource/editors/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix schema: <http://schema.org/> . 
+@prefix schema: <https://schema.org/> . 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
-
 
 <https://w3id.org/chuo-dl/resource/memories>
     a dcat:Dataset ;
@@ -14,94 +13,10 @@
     dct:issued "2026-01-21"^^xsd:date ;
     dct:description "中央大学の学生・教員による多摩キャンパスの思い出に関するフォトエッセイのデータセット"@ja .
 
-:illum a :PhotoEssay ;
-    rdfs:label "イルミネーション"@ja ;
-    schema:author ed:cherry ;
-    schema:title "冬のイルミネーション"@ja ;
-    :hasPart [
-       :illum1
-       :illum2
+
+:PhotoEssay a rdfs:Class ;
+    rdfs:label [
+        "Photo Essay"@en,
+        "フォトエッセイ"@ja
     ];
-    schema:text "冬の日没後，授業が終わって3号館を出ると，この景色に出会います．授業で疲労した目にライトアップが染みます"@ja .
-
-:illum1 a schema:Photograph ;
-    rdfs:label "illum1" ;
-    schema:title "illum1" ;
-    schema:author ed:cherry ;
-    schema:image  <https://w3id.org/chuo-dl/iiif/memories/illum1/full/max/0/default.jpg> .
-
-:illum2 a schema:Photograph ;
-    rdfs:label "illum2" ;
-    schema:title "illum2" ;
-    schema:author ed:cherry ;
-    schema:image  <https://w3id.org/chuo-dl/iiif/memories/illum2/full/max/0/default.jpg> .
-
-
-:kitamon a :PhotoEssay ;
-    rdfs:label "北門"@ja ;
-    schema:author ed:cherry ;
-    schema:title "北門の山道"@ja ;
-    :hasPart [
-       :kita1
-       :kita2
-    ];
-    schema:text "北門から大学に入る道です．坂が急で北門から入ったことを毎度後悔します．鳥のさえずりが心地よいです．"@ja .
-
-:kita1 a schema:Photograph ;
-    rdfs:label "kita1" ;
-    schema:title "kita1" ;
-    schema:author ed:cherry ;
-    schema:image  <https://w3id.org/chuo-dl/iiif/memories/kita1/full/max/0/default.jpg> .
-
-:kita2 a schema:Photograph ;
-    rdfs:label "kita2" ;
-    schema:title "kita2" ;
-    schema:author ed:cherry ;
-    schema:image  <https://w3id.org/chuo-dl/iiif/memories/kita2/full/max/0/default.jpg> .
-
-
-
-:tree a :PhotoEssay ;
-    rdfs:label "木々"@ja ;
-    schema:author ed:cocoabrown ;
-    schema:title "木（借り物）"@ja ;
-    :hasPart [
-       :tree1
-       :tree2
-    ];
-    schema:text "休んでいたため、画像を借りさせていただきました。"@ja .
-
-:tree1 a schema:Photograph ;
-    rdfs:label "tree1" ;
-    schema:title "木（ノーマル）" ;
-    schema:author ed:cocoabrown ;
-    schema:image  <https://w3id.org/chuo-dl/iiif/memories/stainedglass/full/max/0/default.jpg> .
-
-:tree2 a schema:Photograph ;
-    rdfs:label "tree2" ;
-    schema:title "木（ノーマル）" ;
-    schema:author ed:cocoabrown ;
-    schema:image  <https://w3id.org/chuo-dl/iiif/memories/undertree/full/max/0/default.jpg> .
-
-
-:chuo-campus-night a :PhotoEssay ;
-    rdfs:label "多摩キャンパスの夜景"@ja ;
-    schema:author ed:tokyo ;
-    schema:title "多摩キャンパスの夜景"@ja ;
-    :hasPart [
-       :chuo-campus-photo
-       :chuo-campus-photo2
-    ];
-    schema:text "ヒルトップから３号館・フォレストゲートウェイ・中央大学明星大学駅へ向かう際、この道を通れば右手側に美しい景色を見ることができます。夜は京王堀之内駅の明かりが鮮明に見えます。"@ja .
-
-:chuo-campus-photo a schema:Photograph ;
-    rdfs:label "多摩キャンパスの夜景" ;
-    schema:title "多摩キャンパスの夜景" ;
-    schema:author ed:tokyo ;
-    schema:image <https://w3id.org/chuo-dl/iiif/memories/chuo-campus-photo/full/max/0/default.jpg> .
-
-:chuo-campus-photo2 a schema:Photograph ;
-    rdfs:label "多摩キャンパスの夜景２" ;
-    schema:title "多摩キャンパスの夜景２" ;
-    schema:author ed:tokyo ;
-    schema:image <https://w3id.org/chuo-dl/iiif/memories/chuo-campus-photo2/full/max/0/default.jpg> .
+    rdfs:subClassOf schema:CreativeWork .
