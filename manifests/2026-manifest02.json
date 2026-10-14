@@ -1,0 +1,544 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/9bzytyjr5wl-mv7qrf9f",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "日本刀特集"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i",
+      "type": "Canvas",
+      "height": 480,
+      "width": 325,
+      "label": {
+        "en": [
+          "女職蚕手業草　三"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotation-page/nie7qxx36ah-mv7ro15i",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotation-page/nie7qxx36ah-mv7ro15i/Annotation/amj5mxk56pv-mv7rpn9u",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "none": [
+                    "(en) Wooden cuts - https://www.europeana.eu/item/91619/SMVK_EM_objekt_1087533. (en) Utamaro, Kitagawa. Etnografiska museet - https://collections.smvk.se/carlotta-em/web/object/1087533. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "none": [
+                      "type"
+                    ]
+                  },
+                  "value": {
+                    "sv": [
+                      "浮世絵",
+                      "ukiyo-e",
+                      "träsnitt",
+                      "Föremål"
+                    ],
+                    "none": [
+                      "http://data.europeana.eu/concept/58",
+                      "浮世絵",
+                      "ukiyo-e"
+                    ],
+                    "en": [
+                      "ukiyo-e",
+                      "woodcut",
+                      "Object"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "language"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "swe",
+                      "sv"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i",
+              "partOf": [
+                {
+                  "id": "https://iiif.europeana.eu/presentation/91619/SMVK_EM_objekt_1087533/manifest",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Wooden cuts"
+                    ],
+                    "sv": [
+                      "träsnitt,  浮世絵, ukiyo-e"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://collections.smvk.se/carlotta-em/web/image/zoom/1151190/1936.21.0186.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 480,
+                "width": 325
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/oeiig14aaek-mv7rtzj7",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i#xywh=138,234,149,83",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/oeiig14aaek-mv7rtzj7/html/en/qelbyq1qsq-mv7rtzj7",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>蚕に桑の葉を与えている。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/pgxnf7jcip-mv7ruvsu",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i#xywh=86,354,125,85",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/pgxnf7jcip-mv7ruvsu/html/en/0x598vgcvqu-mv7ruvsu",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>蚕に与える桑の葉を細かく切っている。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/q7f6otvlcpa-mv7rvnbl",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i#xywh=148,210,96,62",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/q7f6otvlcpa-mv7rvnbl/html/en/9l8hbn65lyl-mv7rvnbl",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>細かく切った桑の葉を籠から取り出している。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/7vbtaip1929-mv7rxe83",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i#xywh=85,25,198,85",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/7vbtaip1929-mv7rxe83/html/en/bczkropxluf-mv7rxe83",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>桑の葉を与えた蚕の入った箱を棚に置いている。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/ybog8l1bxp-mv7ryzdz",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i#xywh=282,359,31,90",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/ybog8l1bxp-mv7ryzdz/html/en/cpr11mj4gt-mv7ryzdz",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>作者である喜多川歌麿の名が書かれている。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/8u1449j3d3p-mv7s92uf",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i#xywh=280,20,31,97",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/iylu0f2qfs-mv7ro15i/annotations/f5r83k8lzej-mv7ro4ll/annotation/8u1449j3d3p-mv7s92uf/html/en/1e7mj3p9526-mv7s92uf",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>女職蚕手業草（じょしょくかいこてわざぐさ）と作品名が書かれている。</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu",
+      "type": "Canvas",
+      "height": 480,
+      "width": 326,
+      "label": {
+        "en": [
+          "女職蚕手業草　弐"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotation-page/zb0j73rtabj-mv7rzvzu",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotation-page/zb0j73rtabj-mv7rzvzu/Annotation/jqa6zaz4u4s-mv7s0vhv",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "none": [
+                    "(sv) träsnitt, ukiyo-e,  浮世絵 - https://www.europeana.eu/item/91619/SMVK_EM_objekt_1087587. (en) Utamaro, Kitagawa. Etnografiska museet - https://collections.smvk.se/carlotta-em/web/object/1087587. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "none": [
+                      "type"
+                    ]
+                  },
+                  "value": {
+                    "sv": [
+                      "ukiyo-e",
+                      "浮世絵",
+                      "träsnitt",
+                      "Föremål"
+                    ],
+                    "none": [
+                      "http://data.europeana.eu/concept/58",
+                      "ukiyo-e",
+                      "浮世絵"
+                    ],
+                    "en": [
+                      "ukiyo-e",
+                      "woodcut",
+                      "Object"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "language"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "swe",
+                      "sv"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu",
+              "partOf": [
+                {
+                  "id": "https://iiif.europeana.eu/presentation/91619/SMVK_EM_objekt_1087587/manifest",
+                  "type": "Manifest",
+                  "label": {
+                    "sv": [
+                      "träsnitt, ukiyo-e,  浮世絵"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://collections.smvk.se/carlotta-em/web/image/zoom/1151238/1936.21.0185.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 480,
+                "width": 326
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotations/4a0k0n5499y-mv7s131e",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotations/4a0k0n5499y-mv7s131e/annotation/pa5jwt5gf4-mv7s2ma0",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu",
+                "selector": [
+                  {
+                    "type": "FragmentSelector",
+                    "value": "xywh=27,335,22,80"
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotations/4a0k0n5499y-mv7s131e/annotation/pa5jwt5gf4-mv7s2ma0/html/en/55717s4vc13-mv7s2ma0",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>作者である喜多川歌麿の名が書かれている。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotations/4a0k0n5499y-mv7s131e/annotation/jaxb1qy9ne-mv7s3wkp",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu#xywh=108,34,119,144",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotations/4a0k0n5499y-mv7s131e/annotation/jaxb1qy9ne-mv7s3wkp/html/en/w57a7y5mzn-mv7s3wkp",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>蚕に与える桑の葉を収穫している女性。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotations/4a0k0n5499y-mv7s131e/annotation/rhz800814we-mv7s4se5",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu#xywh=23,147,132,225",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotations/4a0k0n5499y-mv7s131e/annotation/rhz800814we-mv7s4se5/html/en/gcudstyieu-mv7s4se5",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>収穫した桑の葉を籠に入れ担いでいる女性。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotations/4a0k0n5499y-mv7s131e/annotation/1sgu2i7rkm1-mv7s8t7v",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu#xywh=24,18,37,94",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/ovx0pibcjar-mv7rzvzu/annotations/4a0k0n5499y-mv7s131e/annotation/1sgu2i7rkm1-mv7s8t7v/html/en/oj5xrpimuw-mv7s8t7v",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>女職蚕手業草（じょしょくかいこてわざぐさ）と作品名が書かれている。</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74",
+      "type": "Canvas",
+      "height": 480,
+      "width": 326,
+      "label": {
+        "en": [
+          "女職蚕手業草　十一"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotation-page/mtemhttkkwe-mv7s9b74",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotation-page/mtemhttkkwe-mv7s9b74/Annotation/ptii8u8itz-mv7sahu2",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "none": [
+                    "(sv) träsnitt, ukiyo-e,  浮世絵 - https://www.europeana.eu/item/91619/SMVK_EM_objekt_1087645. (en) Utamaro, Kitagawa. Etnografiska museet - https://collections.smvk.se/carlotta-em/web/object/1087645. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "none": [
+                      "type"
+                    ]
+                  },
+                  "value": {
+                    "sv": [
+                      "ukiyo-e",
+                      "浮世絵",
+                      "träsnitt",
+                      "Föremål"
+                    ],
+                    "none": [
+                      "http://data.europeana.eu/concept/58",
+                      "ukiyo-e",
+                      "浮世絵"
+                    ],
+                    "en": [
+                      "ukiyo-e",
+                      "woodcut",
+                      "Object"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "language"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "swe",
+                      "sv"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74",
+              "partOf": [
+                {
+                  "id": "https://iiif.europeana.eu/presentation/91619/SMVK_EM_objekt_1087645/manifest",
+                  "type": "Manifest",
+                  "label": {
+                    "sv": [
+                      "träsnitt, ukiyo-e,  浮世絵"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://collections.smvk.se/carlotta-em/web/image/zoom/1151289/1936.21.0194.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 480,
+                "width": 326
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotations/gb7hbzanbz-mv7sbxd9",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotations/gb7hbzanbz-mv7sbxd9/annotation/59artfcitf-mv7sczz8",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74#xywh=286,15,28,103",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotations/gb7hbzanbz-mv7sbxd9/annotation/59artfcitf-mv7sczz8/html/en/758qjn03a5c-mv7sczz9",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>女職蚕手業草（じょしょくかいこてわざぐさ）と作品名が書かれている。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotations/gb7hbzanbz-mv7sbxd9/annotation/g6tdejipm7t-mv7sdv5f",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74#xywh=26,186,23,71",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotations/gb7hbzanbz-mv7sbxd9/annotation/g6tdejipm7t-mv7sdv5f/html/en/y0p0b2v8em-mv7sdv5f",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>作者である喜多川歌麿の名が書かれている。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotations/gb7hbzanbz-mv7sbxd9/annotation/x9n6hh6f0an-mv7sewrk",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74",
+                "selector": [
+                  {
+                    "type": "FragmentSelector",
+                    "value": "xywh=193,87,120,222"
+                  }
+                ]
+              },
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotations/gb7hbzanbz-mv7sbxd9/annotation/x9n6hh6f0an-mv7sewrk/html/en/5eaodvkro3h-mv7sewrk",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>蚕の繭から糸を紡いでいる女性。</p>"
+              }
+            },
+            {
+              "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotations/gb7hbzanbz-mv7sbxd9/annotation/zvhbforoik-mv7sfow0",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74#xywh=22,329,36,46",
+              "body": {
+                "id": "https://example.org/9bzytyjr5wl-mv7qrf9f/canvas/bzmesvsqvwq-mv7s9b74/annotations/gb7hbzanbz-mv7sbxd9/annotation/zvhbforoik-mv7sfow0/html/en/6rjzjx4doih-mv7sfow0",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>蚕の繭からできた糸。</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

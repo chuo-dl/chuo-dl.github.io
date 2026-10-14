@@ -1,0 +1,448 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest",
+  "type": "Manifest",
+  "label": {
+    "ja": [
+      "Netsuke"
+    ],
+    "en": [
+      "世界の昆虫"
+    ],
+    "ja-x-mt": [
+      "根付"
+    ]
+  },
+  "summary": {
+    "none": [
+      "世界中の昆虫に関する画像をまとめたマニフェストです。"
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "none": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "ja": [
+        "常川真央"
+      ]
+    }
+  },
+  "thumbnail": [
+    {
+      "id": "https://images.metmuseum.org/CRDImages/as/web-thumb/10_211_1736_O1_sf.jpg",
+      "type": "Image"
+    }
+  ],
+  "provider": [
+    {
+      "id": "http://example.org/provider",
+      "type": "Agent",
+      "label": {
+        "none": [
+          ""
+        ]
+      },
+      "homepage": [
+        {
+          "id": "http://example.org/undefined/1",
+          "type": "unknown"
+        }
+      ]
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "http://example.org/undefined/2",
+      "type": "unknown"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/aowt1jmcfo-mv7rvc94",
+      "type": "Canvas",
+      "height": 1095,
+      "width": 1600,
+      "label": {
+        "en": [
+          "鈴虫売り"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://ibmuseum.mapps.ne.jp/files/5164/media_files/large/400459.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 1095,
+          "width": 1600
+        }
+      ],
+      "items": [
+        {
+          "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/aowt1jmcfo-mv7rvc94/annotation-page/1a1abogz267-mv7rvc94",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/aowt1jmcfo-mv7rvc94/annotation-page/1a1abogz267-mv7rvc94/Annotation/43jw3hrhnit-mv7rvnrq",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "ja": [
+                    "福岡市博物館",
+                    "「福岡市博物館収蔵品データベース」の画像をIIIFビューアで閲覧できるように(https://jmapps.ne.jp/fukuokacity/det.html?data_id=147534)に基づいて作成"
+                  ],
+                  "en": [
+                    "Fukuoka City Museum",
+                    "Created by \"Fukuoka City Museum Collection Database\" (https://jmapps.ne.jp/fukuokacity/det.html?data_id=147534)"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "ja": [
+                      "収録DB"
+                    ],
+                    "en": [
+                      "Database"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "福岡市博物館収蔵品データベース"
+                    ],
+                    "en": [
+                      "Fukuoka City Museum Collection Database"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "基本区分"
+                    ],
+                    "en": [
+                      "Type"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "記録写真"
+                    ],
+                    "en": [
+                      "Documentary Photography"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "時間"
+                    ],
+                    "en": [
+                      "Time"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "1945年"
+                    ],
+                    "en": [
+                      "1945"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/aowt1jmcfo-mv7rvc94",
+              "partOf": [
+                {
+                  "id": "https://api.cultural.jp/iiif/fcm_db-147534/manifest",
+                  "type": "Manifest",
+                  "label": {
+                    "ja": [
+                      "写真　鈴虫売り"
+                    ],
+                    "en": [
+                      "写真　鈴虫売り"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://ibmuseum.mapps.ne.jp/files/5164/media_files/large/400459.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1095,
+                "width": 1600
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/aowt1jmcfo-mv7rvc94/annotations/qaqa1uivjt9-mv7s9jb0",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/aowt1jmcfo-mv7rvc94/annotations/qaqa1uivjt9-mv7s9jb0/annotation/zwxedw314g-mv7s9zc5",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/aowt1jmcfo-mv7rvc94#xywh=861,229,209,142",
+              "body": {
+                "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/aowt1jmcfo-mv7rvc94/annotations/qaqa1uivjt9-mv7s9jb0/annotation/zwxedw314g-mv7s9zc5/html/en/k42b3tppec-mv7s9zc6",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>このように虫かごをぶら下げて売られていたようです。</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/yy6j1lohzrs-mv7s6nvo",
+      "type": "Canvas",
+      "height": 1722,
+      "width": 2550,
+      "label": {
+        "en": [
+          "Seven Insects"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://mps.lib.harvard.edu/assets/images/drs:18481434/full/159,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 108,
+          "width": 159
+        }
+      ],
+      "items": [
+        {
+          "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/yy6j1lohzrs-mv7s6nvo/annotation-page/i1kue1z3iel-mv7s6nvo",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/yy6j1lohzrs-mv7s6nvo/annotation-page/i1kue1z3iel-mv7s6nvo/Annotation/3m3j1y220mh-mv7s6z8w",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "none": [
+                    "Harvard Art Museums"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "none": [
+                      "Date"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "17th century"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Classification"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Drawings"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Credit Line"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "The Maida and George Abrams Collection, Fogg Art Museum, Harvard University, Cambridge, Massachusetts"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Object Number"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "1999.182"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "People"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Artist: Pieter Withoos, Dutch, 1654/55 - 1692"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Medium"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Opaque and transparent watercolor over graphite on cream antique laid paper, framing line in graphite"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Dimensions"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "21.3 x 31.8 cm (8 3/8 x 12 1/2 in.)"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "none": [
+                      "Provenance"
+                    ]
+                  },
+                  "value": {
+                    "none": [
+                      "Mrs. L. Massey, sold; [Sotheby’s, London, 23 March 1971, lot 97]; through [Alfred Brod, London], to Maida and George Abrams, Boston (L. 3306, verso, lower right); The Maida and George Abrams Collection, 1999.182"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/yy6j1lohzrs-mv7s6nvo",
+              "partOf": [
+                {
+                  "id": "https://iiif.harvardartmuseums.org/manifests/object/198740",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Seven Insects"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://nrs.harvard.edu/urn-3:HUAM:71929_dynmc/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1722,
+                "width": 2550,
+                "service": [
+                  {
+                    "@id": "https://nrs.harvard.edu/urn-3:HUAM:71929_dynmc",
+                    "@type": "ImageService2",
+                    "profile": "level2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/yy6j1lohzrs-mv7s6nvo/annotations/z74ccln6ru-mv7s8lc5",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/yy6j1lohzrs-mv7s6nvo/annotations/z74ccln6ru-mv7s8lc5/annotation/0f557x1t149a-mv7s9brk",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/yy6j1lohzrs-mv7s6nvo",
+                "selector": {
+                  "type": "SvgSelector",
+                  "value": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 2550 1722\" width=\"2550\" height=\"1722\"><polygon points=\"489,620 346,743 427,1024 625,966 855,992 865,1173 1303,1183 1504,1334 1837,948 1375,677 1194,538 1124,488 1051,731 684,689\" /></svg>"
+                }
+              },
+              "body": {
+                "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/yy6j1lohzrs-mv7s6nvo/annotations/z74ccln6ru-mv7s8lc5/annotation/0f557x1t149a-mv7s9brk/html/en/nl742q0zy2-mv7s9brk",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>カマキリです。</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/range/4ba94ipyahr-mv7rg4b6",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Table of contents"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/range/bk4yckl7eof-mv7rg4b1",
+          "type": "Range",
+          "label": {
+            "en": [
+              "Range 1"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/metmuseum-59056/manifest/canvas/aowt1jmcfo-mv7rvc94",
+              "type": "Canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

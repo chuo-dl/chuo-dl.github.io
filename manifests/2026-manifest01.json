@@ -1,0 +1,638 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest",
+  "type": "Manifest",
+  "label": {
+    "ja": [
+      "Kingfisher and Iris"
+    ],
+    "en": [
+      "Kingfisher and Iris"
+    ],
+    "ja-x-mt": [
+      "カワセミとアイリス"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "ja": [
+          "収録DB"
+        ],
+        "en": [
+          "Database"
+        ]
+      },
+      "value": {
+        "ja": [
+          "ミネアポリス美術館API"
+        ],
+        "en": [
+          "Minneapolis Institute of Art API"
+        ]
+      }
+    },
+    {
+      "label": {
+        "ja": [
+          "基本区分"
+        ],
+        "en": [
+          "Type"
+        ]
+      },
+      "value": {
+        "ja": [
+          "版画"
+        ],
+        "en": [
+          "Print"
+        ]
+      }
+    },
+    {
+      "label": {
+        "ja": [
+          "人物"
+        ],
+        "en": [
+          "People"
+        ]
+      },
+      "value": {
+        "ja": [
+          "歌川広重"
+        ],
+        "en": [
+          "Utagawa, Hiroshige"
+        ]
+      }
+    },
+    {
+      "label": {
+        "ja": [
+          "場所"
+        ],
+        "en": [
+          "Place"
+        ]
+      },
+      "value": {
+        "ja": [
+          "日本"
+        ],
+        "en": [
+          "Japan"
+        ]
+      }
+    },
+    {
+      "label": {
+        "ja": [
+          "時間"
+        ],
+        "en": [
+          "Time"
+        ]
+      },
+      "value": {
+        "ja": [
+          "1844～1845年"
+        ],
+        "en": [
+          "1844-1845"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "none": [
+      "Style: 19th century",
+      "Markings: Censor: Tanaka | Publisher: Marujin (Maruya Jinpachi) | Artist\\'s seal",
+      "Medium: Woodblock print (nishiki-e); ink and color on paper",
+      "Classification: Prints",
+      "Dimension: 13 1/16 × 4 5/16 in. (33.1 × 10.9 cm) (image, sheet, aitanzaku)",
+      "Object name: Print (ukiyo-e / kachō-e)",
+      "Signed: Hiroshige ga 広重画"
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "none": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "ja": [
+        "ミネアポリス美術館",
+        "「ミネアポリス美術館API」の画像をIIIFビューアで閲覧できるように(https://collections.artsmia.org/art/7984)に基づいて作成"
+      ],
+      "en": [
+        "Minneapolis Institute of Arts",
+        "Created by \"Minneapolis Institute of Art API\" (https://collections.artsmia.org/art/7984)"
+      ]
+    }
+  },
+  "thumbnail": [
+    {
+      "id": "https://2.api.artsmia.org/7984.jpg",
+      "type": "Image"
+    }
+  ],
+  "provider": [
+    {
+      "id": "http://example.org/provider",
+      "type": "Agent",
+      "label": {
+        "none": [
+          ""
+        ]
+      },
+      "homepage": [
+        {
+          "id": "http://example.org/undefined/7",
+          "type": "unknown"
+        }
+      ]
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "http://example.org/undefined/8",
+      "type": "unknown"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1",
+      "type": "Canvas",
+      "height": 800,
+      "width": 289,
+      "label": {
+        "none": [
+          "[1] "
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://2.api.artsmia.org/7984.jpg",
+          "type": "Image"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/minneapolis-7984/annotation/p1-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1",
+              "body": {
+                "id": "https://2.api.artsmia.org/800/7984.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 800,
+                "width": 289
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1/annotations/7zyuwv8etmg-mv7rczy3",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1/annotations/7zyuwv8etmg-mv7rczy3/annotation/72o6mf2jg47-mv7rffgn",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1#xywh=73,51,166,194",
+              "body": {
+                "id": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1/annotations/7zyuwv8etmg-mv7rczy3/annotation/72o6mf2jg47-mv7rffgn/html/en/dqltvrwj44m-mv7rffgn",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>この鳥はカワセミです</p>"
+              }
+            },
+            {
+              "id": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1/annotations/7zyuwv8etmg-mv7rczy3/annotation/hnxspy057vu-mv7rgrxp",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1#xywh=109,442,143,167",
+              "body": {
+                "id": "https://api.cultural.jp/iiif/minneapolis-7984/canvas/p1/annotations/7zyuwv8etmg-mv7rczy3/annotation/hnxspy057vu-mv7rgrxp/html/en/63gh8z8mvfl-mv7rgrxp",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>この花はアイリスです</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov",
+      "type": "Canvas",
+      "height": 800,
+      "width": 289,
+      "label": {
+        "en": [
+          ""
+        ]
+      },
+      "items": [
+        {
+          "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov/annotation-page/6xqszghdwsm-mv7rvtov",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov/annotation-page/6xqszghdwsm-mv7rvtov/Annotation/7a7s366ivj6-mv7rxtkz",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "ja": [
+                    "シカゴ美術館",
+                    "「シカゴ美術館API」の画像をIIIFビューアで閲覧できるように(https://www.artic.edu/artworks/88807)に基づいて作成"
+                  ],
+                  "en": [
+                    "Art Institute of Chicago",
+                    "Created by \"Art Institute of Chicago API\" (https://www.artic.edu/artworks/88807)"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "ja": [
+                      "収録DB"
+                    ],
+                    "en": [
+                      "Database"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "シカゴ美術館API"
+                    ],
+                    "en": [
+                      "Art Institute of Chicago API"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "基本区分"
+                    ],
+                    "en": [
+                      "Type"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "版画"
+                    ],
+                    "en": [
+                      "Print"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "人物"
+                    ],
+                    "en": [
+                      "People"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "歌川広重"
+                    ],
+                    "en": [
+                      "Utagawa, Hiroshige"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "場所"
+                    ],
+                    "en": [
+                      "Place"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "日本"
+                    ],
+                    "en": [
+                      "Japan"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "時間"
+                    ],
+                    "en": [
+                      "Time"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "1838～1852年"
+                    ],
+                    "en": [
+                      "1838-1852"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov",
+              "partOf": [
+                {
+                  "id": "https://api.cultural.jp/iiif/chicago-88807/manifest",
+                  "type": "Manifest",
+                  "label": {
+                    "ja": [
+                      "Camellia flowers and bullfinch"
+                    ],
+                    "en": [
+                      "Camellia flowers and bullfinch"
+                    ],
+                    "ja-x-mt": [
+                      "椿の花とウソ"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://www.artic.edu/iiif/2/549f0cad-7daf-5d2f-2347-fa55741350e7/full/!800,800/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1,
+                "width": 1
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov/annotations/psginr0i9qh-mv7s9pbt",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov/annotations/psginr0i9qh-mv7s9pbt/annotation/uv96nnp0wk-mv7sa29q",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov#xywh=115,218,166,198",
+              "body": {
+                "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov/annotations/psginr0i9qh-mv7s9pbt/annotation/uv96nnp0wk-mv7sa29q/html/en/hrniutxrgws-mv7sa29q",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>これは椿の花です</p>"
+              }
+            },
+            {
+              "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov/annotations/psginr0i9qh-mv7s9pbt/annotation/xl5x17ij7s-mv7saljx",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov#xywh=84,455,188,209",
+              "body": {
+                "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/wftpprlr9h-mv7rvtov/annotations/psginr0i9qh-mv7s9pbt/annotation/xl5x17ij7s-mv7saljx/html/en/p469o8axlxs-mv7saljx",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>この鳥は鷽です</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2",
+      "type": "Canvas",
+      "height": 800,
+      "width": 289,
+      "label": {
+        "en": [
+          ""
+        ]
+      },
+      "items": [
+        {
+          "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2/annotation-page/kdo11tqsf7-mv7satd2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2/annotation-page/kdo11tqsf7-mv7satd2/Annotation/mlymqtkq3bk-mv7sd4p0",
+              "type": "Annotation",
+              "requiredStatement": {
+                "label": {
+                  "none": [
+                    "Attribution"
+                  ]
+                },
+                "value": {
+                  "ja": [
+                    "シカゴ美術館",
+                    "「シカゴ美術館API」の画像をIIIFビューアで閲覧できるように(https://www.artic.edu/artworks/88824)に基づいて作成"
+                  ],
+                  "en": [
+                    "Art Institute of Chicago",
+                    "Created by \"Art Institute of Chicago API\" (https://www.artic.edu/artworks/88824)"
+                  ]
+                }
+              },
+              "metadata": [
+                {
+                  "label": {
+                    "ja": [
+                      "収録DB"
+                    ],
+                    "en": [
+                      "Database"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "シカゴ美術館API"
+                    ],
+                    "en": [
+                      "Art Institute of Chicago API"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "基本区分"
+                    ],
+                    "en": [
+                      "Type"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "版画"
+                    ],
+                    "en": [
+                      "Print"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "人物"
+                    ],
+                    "en": [
+                      "People"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "歌川広重"
+                    ],
+                    "en": [
+                      "Utagawa, Hiroshige"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "場所"
+                    ],
+                    "en": [
+                      "Place"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "日本"
+                    ],
+                    "en": [
+                      "Japan"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "ja": [
+                      "時間"
+                    ],
+                    "en": [
+                      "Time"
+                    ]
+                  },
+                  "value": {
+                    "ja": [
+                      "1842～1857年"
+                    ],
+                    "en": [
+                      "1842-1857"
+                    ]
+                  }
+                }
+              ],
+              "motivation": "painting",
+              "target": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2",
+              "partOf": [
+                {
+                  "id": "https://api.cultural.jp/iiif/chicago-88824/manifest",
+                  "type": "Manifest",
+                  "label": {
+                    "ja": [
+                      "Swallow and wisteria"
+                    ],
+                    "en": [
+                      "Swallow and wisteria"
+                    ],
+                    "ja-x-mt": [
+                      "ツバメと藤"
+                    ]
+                  }
+                }
+              ],
+              "body": {
+                "id": "https://www.artic.edu/iiif/2/f17ffd85-1a71-deda-ab73-824ab5f49c87/full/!800,800/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 26,
+                "width": 1
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2/annotations/g27y3s8v5hq-mv7sejsl",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Inline annotations"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2/annotations/g27y3s8v5hq-mv7sejsl/annotation/13lfeayd3d2-mv7sf58n",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2#xywh=91,391,190,234",
+              "body": {
+                "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2/annotations/g27y3s8v5hq-mv7sejsl/annotation/13lfeayd3d2-mv7sf58n/html/en/lusawoe6v38-mv7sf58n",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>この鳥は燕です</p>"
+              }
+            },
+            {
+              "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2/annotations/g27y3s8v5hq-mv7sejsl/annotation/bls1bd1akxl-mv7sgolq",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "target": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2#xywh=114,160,128,548",
+              "body": {
+                "id": "https://api.cultural.jp/iiif/minneapolis-7984/manifest/canvas/ljuuc162tuh-mv7satd2/annotations/g27y3s8v5hq-mv7sejsl/annotation/bls1bd1akxl-mv7sgolq/html/en/lhjgo2b312-mv7sgolq",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<p>藤の花です</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
