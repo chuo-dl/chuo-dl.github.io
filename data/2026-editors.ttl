@@ -1,0 +1,69 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix chuodl: <https://w3id.org/chuo-dl/resource/> .
+@prefix project: <https://w3id.org/chuo-dl/resource/projects/> .
+@prefix editors: <https://w3id.org/chuo-dl/resource/editors/> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix jps: <https://jpsearch.go.jp/data/> .
+
+project:digital_libraries_2026 a foaf:Project ;
+    rdfs:label "2026年度「デジタル・ライブラリ」" ;
+    foaf:title "2026年度「デジタル・ライブラリ」" .
+
+editors:semantic a foaf:Person ;
+    rdfs:label "Semantic" ;
+    foaf:nick "Semantic" ;
+    foaf:currentProject  project:digital_libraries_2026  ;
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/> ;
+    foaf:topic_interest jps:fcm_db-147534 ;
+    foaf:topic_interest jps:apmoa_mapps-11359 ;
+    foaf:knows editors:cherry,
+                      editors:cocoabrown,
+                      editors:iakusuot,
+                      editors:sakata .
+
+editors:iakusuot a foaf:Person ;
+    rdfs:label "Iakusuot" ;
+    foaf:nick "Iakusuot" ;
+    foaf:currentProject  project:digital_libraries_2026  ;
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/> ;
+    foaf:topic_interest jps:tfam_art_db-1337 ;
+    foaf:topic_interest jps:tfam_art_db-428 ;
+    foaf:topic_interest jps:tokyomuseumcolection-mot_art_museumjbD1975_00_7751_000 ; 
+    foaf:topic_interest chuodl:ryusei ;
+
+foaf:knows editors:semantic ;
+foaf:knows editors:sakata .
+
+chuodl:ryusei a schema:Book ;
+    rdfs:label "流星の絆" ;
+    schema:name "流星の絆" ;
+    schema:author chuodl:higashino .
+
+chuodl:higashino a schema:Person ;
+    rdfs:label "東野圭吾" ;
+    schema:name"東野圭吾" . 
+
+
+editors:sakata a foaf:Person ;
+    rdfs:label "sakata" ;
+    foaf:nick "sakata" ;
+    foaf:currentProject  project:digital_libraries_2026  ;
+    foaf:schoolHomepage <https://sil.r.chuo-u.ac.jp/home/> ;
+    foaf:topic_interest jps:fcm_db-147534 ;
+    foaf:topic_interest jps:cobas-175653 ;
+    foaf:topic_interest jps:cobas-77817 ;
+    foaf:topic_interest jps:hdm-1812 ;
+    foaf:topic_interest jps:cobas-180159 ;
+    foaf:topic_interest chuodl:strangepicture ;
+    foaf:knows editors:semantic,
+                      editors:iakusuot .
+    
+chuodl:strangepicture a schema:Book ;
+    rdfs:label "変な絵" ;
+    schema:name "変な絵" ;
+    schema:creator chuodl:uketu .
+
+chuodl:uketu a schema:Person ;
+    rdfs:label "雨穴" ;
+    schema:name "雨穴". 
